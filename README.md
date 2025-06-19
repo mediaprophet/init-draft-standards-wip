@@ -1,6 +1,9 @@
 # Human Centric AI Thoughts & Projects
 
-The notion of Human Centric 
+The notion of Human Centric AI is thought to require some parts...  
+
+## WIP
+This repo has currently been produced - overnight - merely, getting some resources from historical works quickly processed via local AI and Grok, to get something to start with; there's alot more work still needed, and some of the descriptions will not represent the intended texts associated to the historical work or future useful intents & purposes.  Rather, this provides something that is hoped to be more useful, than otherwise.  
 
 ## Index
 
