@@ -5,6 +5,10 @@ The notion of Human Centric AI is thought to require some parts...
 ## WIP
 This repo has currently been produced - overnight ([See Commit History](https://github.com/mediaprophet/init-draft-standards-wip/commits/main/)) - merely, getting some resources or moreover considerations from historical works quickly processed via local AI and Grok (and a bit of local LLM - meta/llama-3.3-70b), to get something to start with; intending to then either prompt discussion, or enabling means to then improve edits.  There's alot more work still needed and some of the descriptions will not represent the intended texts associated to the historical work or future useful intents & purposes, as LLMs often - don't get it.. This is therefore intended to provide something that is hoped to be more useful, than otherwise, forming a basis for development.
 
+### Use of Generative AI 
+Generative AI MAY be used to support the development of these works, however it should be declared that they have in-fact been used.  Whilst part of the purpose of these works is to improve the means through which these declarations can be made, in the interim, the RECOMMENDED approach is to declare the agent that has contributed (model / vendor ("Agent")) and who used it ('entity').  For example:  Timothy Holborn (Identifier), Grok 3/x, meta/llama-3.3-70b.
+
+
 ## Nomenclature
 The meaning of 'Human Centric AI' is in itself, contentious.  People seek to define it in different ways, and in-turn also, the acronyms used that may suggest Human Centric AI may also be employed to mean Human Centered AI, which is considered to be a different concept or emboidment of concepts, whilst the ambiguity generally leads to outcomes that are inverse to the intents, purposes, functional designs and ramaifications of what some (such as myself) have sought to define as to be distinguished by the term 'Human Centric', and by extension, "Human Centric AI" or indeed also, moreover as a consequence of the works of others - Human Centric Internet.
 
@@ -215,3 +219,19 @@ The Digital Transformation presents both opportunities and challenges for human 
 4. **Support community-driven initiatives**: Promote decentralized and community-driven internet governance models that prioritize human centricity and social welfare.
 
 By working together to address these challenges and opportunities, we can create a digital ecosystem that supports human dignity, autonomy, and well-being, and ensures that the benefits of digital technologies are accessible to all.
+
+## Foundational Works
+
+The production of these components as to engineer solutions that are different to the function of 'information management systems' generally otherwise, would not be possible without the prior-works done by many, yet relatively few members of our human family - earlier, overtime.  there are many areas that contribute towards the means to achieve the type of outcome these efforts now seek to better realise, only some relate to internet and/or web-standards and/or software.
+
+Where works does relate to - royalty free - software...  as may then in-turn act to better support 'freedom of thought', and in-turn the personal ownership akin to prosthetics, extension of an individuals 'mindware', notwithstanding complexities...
+
+The following projects are of particular note;
+
+- [WebID](https://www.w3.org/community/webid/)
+- [RWW](https://www.w3.org/community/rww/)
+
+Efforts to forge a 'web of data' or ['semantic web'](https://www.w3.org/2001/sw/wiki/Main_Page) to address 'semantics' has been on-going since [1994](https://www.youtube.com/watch?v=UkjyCPuTKPw) if not before.  There are many elements associated to these works, which can be reviewed by searching the [w3c email mailing lists](https://www.w3.org/Search/Mail/Public/search?indexes=Public&resultsperpage=100&sortby=date-asc) including 'web-payments' which acted to bring about works on ['verifiable claims'](https://w3c.github.io/vctf/), ['credentials'](https://www.w3.org/community/credentials/2014/08/06/call-for-participation-in-credentials-community-group/) and ['decentralised identifiers'](https://www.w3.org/TR/did-1.0/), whilst the growth of [ldp](https://www.w3.org/TR/ldp/) and works relating to [design issues](https://web.archive.org/web/*/https://www.w3.org/DesignIssues/) and our means to address [social web](https://www.youtube.com/watch?v=V7qOhjja7jM) issues, thereby also leading to efforts to advanced what is currently known of as [solid](https://www.w3.org/community/solid/).  
+
+## AUTHOR NOTE
+Historical works have been undertaken in difficult circumstances.  In what was already difficult cirumstances, The ramifications of 'covid' and my choice not to support the global deployment of 'vaccine passports' has led to serious harm and impairment, including but no exclusive to significant harms via applied policies resulting in an inability to access otherwise necessary healthcare, associated with infection and chronic pain over years, whilst said to be 'on waiting lists' and/or similar.  As such, my ability to do better, has been impaired. Best efforts are being made, in difficult circumstances, whilst having managed to survive and improve to some-degree thereby enabling me to concentrate enough to do these works as illustrated.  Support, Humanitarianly focused expertise and resources are sought to assist with the development of these works towards 'fit for purpose' outcomes; whether or not, i continue to be able to do so to any degree and/or if at all. 
