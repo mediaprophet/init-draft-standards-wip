@@ -191,9 +191,9 @@ The development of Human Centric AI and Social Internet requires a deep understa
 1. **Human Centric AI**: AI systems that prioritize human well-being, dignity, and autonomy, and are designed to augment and support human capabilities.
 2. **Social Internet**: A decentralized, community-driven internet that promotes social interaction, collaboration, and mutual support.
 
-**Objective Purposes**
+**Objective Intents & Purposes**
 
-To support the development of Human Centric AI and Social Internet, we propose the following objective purposes:
+To support the development of Human Centric AI and Social Internet, the following objectives are considered:
 
 1. **Establish digital personhood as a fundamental human right**: Recognize the essential role of digital supports in enabling human agency and dignity.
 2. **Develop socially-aware cloud storage and personal information processing apparatus**: Create secure, accessible, and private online spaces for individuals to manage their personal data.
