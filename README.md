@@ -213,10 +213,10 @@ The Digital Transformation presents both opportunities and challenges for human 
 
 **Recommendations**
 
-1. **Conduct further research**: Investigate the implications of digital personhood on human rights, and explore the development of socially-aware cloud storage and personal information processing apparatus.
-2. **Develop policies and guidelines**: Establish clear policies and guidelines for promoting digital literacy, inclusion, and online safety.
-3. **Encourage international cooperation**: Foster global collaboration to address the challenges and opportunities presented by the Digital Transformation.
-4. **Support community-driven initiatives**: Promote decentralized and community-driven internet governance models that prioritize human centricity and social welfare.
+1. **Conducting further research**: Investigating the implications of digital personhood on human rights, and exploring the development of socially-aware cloud storage and personal information processing apparatus via a interdiciplinary approach is required.
+2. **Develop policies and guidelines**: Establishing clear policies and guidelines for the promotion of semantic and ontological literacy, social inclusion, and online safety is required and requires humanitarian advocacy via an interdisciplinary approach.  Whilst tooling can be produced to improve accessibility it is often not already available, despite technical capacities that exist more broadly and as has been otherwise operationally deployed, decades ago (albeit for different purposes).
+3. **Encourage international cooperation**: Fostering global collaboration to address the challenges and opportunities presented by 'Digital Transformation' requires socioeconomic considerations as to proportionately support, protection and safety measures works and workers focused on tasks considered desirably advanced for our humanity.
+4. **Support community-driven initiatives**: Promotion of awareness of how existing information systems are decentralized and how community-driven internet and information (electronic evidence) governance & employment models that prioritize human centricity, social welfare and responsibility can be applied in connection to human rights principles, is a necessity.  (ie: most people don't understand how an 'app' or its underlying CDN infrastructure works vs. the legal / IP control/'ownership' systems).
 
 By working together to address these challenges and opportunities, we can create a digital ecosystem that supports human dignity, autonomy, and well-being, and ensures that the benefits of digital technologies are accessible to all.
 
