@@ -2,7 +2,9 @@
 
 The notion of Human Centric AI is thought to require some parts...  
 
-([Git Repo](https://github.com/mediaprophet/init-draft-standards-wip))
+- [Web Render of this repo](https://mediaprophet.github.io/init-draft-standards-wip/)
+- ([Git Repo](https://github.com/mediaprophet/init-draft-standards-wip))
+
 
 ## WIP
 This repo has currently been produced - overnight ([See Commit History](https://github.com/mediaprophet/init-draft-standards-wip/commits/main/)) - merely, getting some resources or moreover considerations from historical works quickly processed via local AI and Grok (and a bit of local LLM - meta/llama-3.3-70b), to get something to start with; intending to then either prompt discussion, or enabling means to then improve edits.  There's alot more work still needed and some of the descriptions will not represent the intended texts associated to the historical work or future useful intents & purposes, as LLMs often - don't get it.. This is therefore intended to provide something that is hoped to be more useful, than otherwise, forming a basis for development.  Note also, historical work on 'sense' which provides some additional information about elements that i do not have confidence can be better advanced, yet...  
