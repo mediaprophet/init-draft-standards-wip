@@ -139,36 +139,24 @@ Conclusion
 
 Digital transformation has redefined personhood to include digital access, identity, and agency. To support a Social Web and Human-Centric AI, individuals must have access to essential digital tools like socially-aware cloud storage, personal information processing systems, and domain names. These tools are critical for establishing digital personhood and exercising human rights in the digital age. Achieving this requires addressing challenges through universal access, user-controlled systems, and inclusive policies, ensuring an equitable, privacy-respecting digital future as of June 20, 2025.
 
-### Key Citations
-Digital space and human rights
+### GROK Citations
+- [Digital space and human rights](https://www.ohchr.org/en/topic/digital-space-and-human-rights)
+- [Human rights-based digital transformation](https://www.undp.org/rolhr/human-rights/digital-transformation)
+- [Human Rights in the Digital Age](https://www.hrw.org/news/2014/12/23/human-rights-digital-age)
+- [Developing a human rights impact assessment model for internet domain registries](https://www.humanrights.dk/news/developing-human-rights-impact-assessment-model-internet-domain-registries)
+- [Personal Data Stores (PDS): A Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC9921726/)
+- [Understanding cloud data protection and data privacy](https://legal.thomsonreuters.com/en/insights/articles/understanding-data-privacy-and-cloud-computing)
+- [Europe's Most Secure Cloud Storage](https://www.pcloud.com/eu)
+- [OHCHR and privacy in the digital age](https://www.ohchr.org/en/privacy-in-the-digital-age)
+- [Identity and Personhood in Digital Democracy](https://arxiv.org/abs/2011.02412)
+- [Human Rights-Based Technology Policies](https://press.un.org/en/2024/soc4915.doc.htm)
+- [The Impact of Digital Technology on Human Rights in Europe and Central Asia](https://www.undp.org/eurasia/publications/impact-digital-technology-human-rights-europe-and-central-asia)
+- [Shaping a rights-oriented digital transformation](https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/06/shaping-a-rights-oriented-digital-transformation_30378a18/86ee84e2-en.pdf)
+- [Personhood: What Is It and How Do We Protect It?](https://www.verifime.com/blog/personhood-what-is-it-and-how-do-we-protect-it)
+- [Cloud Data Sovereignty Governance and Risk Implications](https://www.isaca.org/resources/news-and-trends/industry-news/2024/cloud-data-sovereignty-governance-and-risk-implications-of-cross-border-cloud-storage)
+- [Human rights in the digital age](https://www.oecd.org/en/topics/sub-issues/human-rights-in-the-digital-age.html)
 
-Human rights-based digital transformation
-
-Human Rights in the Digital Age
-
-Developing a human rights impact assessment model for internet domain registries
-
-Personal Data Stores (PDS): A Review
-
-Understanding cloud data protection and data privacy
-
-Europe's Most Secure Cloud Storage
-
-OHCHR and privacy in the digital age
-
-Identity and Personhood in Digital Democracy
-
-Human Rights-Based Technology Policies
-
-The Impact of Digital Technology on Human Rights in Europe and Central Asia
-
-Shaping a rights-oriented digital transformation
-
-Personhood: What Is It and How Do We Protect It?
-
-Cloud Data Sovereignty Governance and Risk Implications
-
-Human rights in the digital age
+NOTE: A far more comprehensive library of documents cthat has been collected in relation to these works [can be found here (a google drive folder)](https://drive.google.com/drive/folders/1tYFIggw8MIY5fD2u-nbwFRM6wqrhdmQZ)
 
 **Digital Personhood and Human Rights: A Framework for Human Centric AI and Social Internet**
 
