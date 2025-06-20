@@ -3,11 +3,23 @@
 The notion of Human Centric AI is thought to require some parts...  
 
 ## WIP
-This repo has currently been produced - overnight - merely, getting some resources from historical works quickly processed via local AI and Grok, to get something to start with; there's alot more work still needed, and some of the descriptions will not represent the intended texts associated to the historical work or future useful intents & purposes.  Rather, this provides something that is hoped to be more useful, than otherwise.  
+This repo has currently been produced - overnight ([See Commit History](https://github.com/mediaprophet/init-draft-standards-wip/commits/main/)) - merely, getting some resources or moreover considerations from historical works quickly processed via local AI and Grok (and a bit of local LLM - meta/llama-3.3-70b), to get something to start with; intending to then either prompt discussion, or enabling means to then improve edits.  There's alot more work still needed and some of the descriptions will not represent the intended texts associated to the historical work or future useful intents & purposes, as LLMs often - don't get it.. This is therefore intended to provide something that is hoped to be more useful, than otherwise, forming a basis for development.
 
-## Index
+## Nomenclature
+The meaning of 'Human Centric AI' is in itself, contentious.  People seek to define it in different ways, and in-turn also, the acronyms used that may suggest Human Centric AI may also be employed to mean Human Centered AI, which is considered to be a different concept or emboidment of concepts, whilst the ambiguity generally leads to outcomes that are inverse to the intents, purposes, functional designs and ramaifications of what some (such as myself) have sought to define as to be distinguished by the term 'Human Centric', and by extension, "Human Centric AI" or indeed also, moreover as a consequence of the works of others - Human Centric Internet.
 
-- [Agent Discovery Protocol](https://mediaprophet.github.io/init-draft-standards-wip/ADP/)  ([RFC WIP](https://mediaprophet.github.io/init-draft-standards-wip/ADP/rfc.txt))
+To address this issue, a consideration of how the useful meaning of vocabulary may be better defined by its characteristics has therefore been considered as a constituency of these works.  These can then be convayed as categories or classes of services.
+
+## Constituencies
+There is no single component that leads to support for Human Centric AI.  Rather, there are a range of components that need to be made to work together.  The structure of these works should be considered an early draft, whereby elements from multiple constituencies may be brought together into singular specification documents; for instance, as may be the case for ontology components; whilst others, may be significantly expanded upon and thereafter forged as constituencies of a broader emboidment of works.
+
+## Primary Future WIP Host(s)
+The intention of these works is that they are provided to the [W3C Human Centric AI CG](https://www.w3.org/community/humancentricai/) for consideration with the view to supporting the advancement of these works via appropriate [Internet Governance](https://en.m.wikipedia.org/wiki/Internet_governance) communities, including but not exclusive to W3C and IETF, with the intended purpose of seeking to establish royalty free - interoperable solutions, that act to render meaningful support for [Human Rights](https://www.ohchr.org/en/instruments-listings), particularly in areas where material supports are otherwise absent or compromised with thereby unnecessary compromises. Note also, that Human Rights instruments often declare duties of state praties, whereas the advent of 'digital transformation' now therefore empowers our ability to have, maintain and support the human-rights of one-another, for those members of our human family who should seek and/or choose to do so. 
+
+
+## Index to Draft Documents - W3C
+
+- [Agent Discovery Protocol ("ADP")](https://mediaprophet.github.io/init-draft-standards-wip/ADP/) 
 - [Agreements](https://mediaprophet.github.io/init-draft-standards-wip/agreements/)
 - [Context Markup Language](https://mediaprophet.github.io/init-draft-standards-wip/cml/)
 - [Context Markup Language Document](https://mediaprophet.github.io/init-draft-standards-wip/CMLD/)
@@ -18,6 +30,9 @@ This repo has currently been produced - overnight - merely, getting some resourc
 - [Digital Transformation, Personhood, and Human Rights](https://mediaprophet.github.io/init-draft-standards-wip/HCI/)
 - [Permissive Commons](https://mediaprophet.github.io/init-draft-standards-wip/PC/)
 - [Ontology for Multi-Entity Rights](https://mediaprophet.github.io/init-draft-standards-wip/rights/)
+
+## Index to Draft Document - IETF
+-[ADP Internet Draft WIP](https://mediaprophet.github.io/init-draft-standards-wip/ADP/rfc.txt)
 
 ## Digital Transformation and Human Rights
 Digital transformation is reshaping how societies operate, moving from physical documents to digital systems for identity and agency. This shift impacts human rights, as access to digital tools is becoming essential for exercising fundamental rights like privacy and freedom of expression. This response explores how tools like socially-aware cloud storage, personal information processing systems, and domain names support digital personhood, Human-Centric AI, and the Social Web.
@@ -30,17 +45,23 @@ Personal Information Processing Apparatus: Systems like Personal Data Stores (PD
 Domain Names: Unique digital addresses that establish online presence, crucial for digital identity and agency.
 
 These tools are vital for participating in digital societies, ensuring individuals can exercise their rights.
-Supporting Human-Centric AI and Social Web
+
+### Supporting Human-Centric AI and Social Web
 Human-Centric AI prioritizes human values, integrating with user-controlled systems to respect agency. The Social Web envisions a decentralized internet where users control data, supported by open protocols and community governance. Both concepts rely on digital tools to empower individuals, addressing challenges like surveillance and data breaches.
-Challenges and Considerations
+
+### Challenges and Considerations
 While these tools offer opportunities, challenges include the digital divide, privacy risks, and technical barriers like data interoperability. Ensuring universal access and ethical AI development is crucial for an inclusive digital future.
 Survey Note: Detailed Analysis of Digital Transformation, Personhood, and Human Rights
-Introduction and Context
+
+### Introduction and Context
 Digital transformation, as of June 20, 2025, has fundamentally altered societal operations, shifting from reliance on physical, non-digital evidence (e.g., printed documents) to digital systems for establishing identity, agency, and access to services. This transformation has profound implications for human rights, as access to digital infrastructure increasingly underpins personhood and human agency. Historically, societies relied on printed documents like birth certificates and passports to establish identity, but increasingly, digital tools are necessary for exercising fundamental rights. This survey note explores the considerations, implications, and objective purposes required to support a Social Web or Social Internet, and in turn, Human-Centric AI and a Human-Centric Internet, focusing on the need for socially-aware cloud storage, personal information processing apparatus, and domain names.
-Digital Personhood and Human Rights: Definitions and Importance
+
+
+### Digital Personhood and Human Rights: Definitions and Importance
 Digital personhood refers to an individual's ability to establish and maintain a recognized digital identity, enabling participation in digital ecosystems while exercising agency and rights. Research, such as from the Office of the High Commissioner for Human Rights (OHCHR) Digital space and human rights, highlights that digital technologies affect all types of human rights—civil, political, economic, social, and cultural—both enhancing and undermining them. For instance, digital tools can advocate for rights but also enable surveillance, censorship, and algorithmic bias, disproportionately impacting marginalized groups.
 The importance of digital personhood lies in its role as a foundation for human rights in the digital age. Without access to digital tools, individuals risk exclusion from societal, economic, and political systems, undermining rights like privacy, data protection, freedom of expression, access to information, and non-discrimination. The United Nations Development Programme (UNDP) Human rights-based digital transformation emphasizes placing human rights at the center of digital transformation, understanding the real impact of digital technologies on these rights.
-Essential Digital Tools for Digital Personhood
+
+### Essential Digital Tools for Digital Personhood
 To support digital personhood, individuals require specific digital tools, each with distinct roles and implications:
 Socially-Aware Cloud Storage: This refers to cloud services that prioritize user privacy, autonomy, and data sovereignty. Such storage allows individuals to store and manage their data securely, with control over access and usage. For example, platforms like pCloud Europe's Most Secure Cloud Storage emphasize encryption and GDPR compliance, aligning with privacy rights. Research from Thomson Reuters Understanding cloud data protection and data privacy underscores the importance of data security and control, crucial for protecting personal data and ensuring privacy, a fundamental human right.
 
@@ -48,18 +69,19 @@ Personal Information Processing Apparatus (PIPA): This includes tools and system
 
 Domain Names: Domain names provide a unique, user-controlled digital address, enhancing discoverability and asserting digital identity. The Danish Institute for Human Rights Developing a human rights impact assessment model for internet domain registries notes that domain registries have potential human rights impacts, affecting freedom of expression, access to information, and privacy. For instance, government requests to redirect websites can impact expression, while publishing registrant data affects privacy. Domain names are crucial for establishing a digital presence, supporting Human-Centric AI by enabling control over online interactions.
 
-Human-Centric AI and the Social Web: Interconnections
+### Human-Centric AI and the Social Web: Interconnections
 Human-Centric AI is designed to prioritize human values, agency, and well-being, integrating with user-owned digital assets like domain names and PDS. It involves developing AI systems that respect user consent, transparency, and ethical data use, as highlighted in OECD discussions Human rights in the digital age. This ensures AI enhances rather than undermines digital personhood, addressing risks like algorithmic bias and automated decision-making systems.
 The Social Web or Social Internet envisions a decentralized, user-driven internet where individuals control their data and interactions. This requires open protocols, interoperable platforms, and community-driven governance models, as discussed in Human Rights Watch Human Rights in the Digital Age. Tools like PDS and domain names are essential, empowering users to manage digital identities autonomously. This vision supports Human-Centric AI by providing a foundation where users can engage with AI systems on their own terms, reducing risks of surveillance and data exploitation.
-Objective Purposes and Implementation Strategies
+
+### Objective Purposes and Implementation Strategies
 To support digital personhood, Human-Centric AI, and the Social Web, the following objective purposes are necessary, with implementation strategies:
 Objective Purpose
 
-Description
+### Description
 
-Implementation Strategies
+#### Implementation Strategies
 
-Ensure Universal Access to Digital Tools
+#### Ensure Universal Access to Digital Tools
 
 Provide affordable, equitable access to ICT infrastructure, including internet, devices, and software.
 
@@ -77,20 +99,21 @@ Provide personal domain names to establish unique digital presence, enhancing ag
 
 Subsidize domain names for marginalized communities; integrate with decentralized identity systems; educate on domain value.
 
-Foster Human-Centric AI Development
+#### Foster Human-Centric AI Development
 
 Design AI systems prioritizing human agency, transparency, and ethical data use.
 
 Embed privacy-by-design in AI; integrate with user-controlled assets; create auditing frameworks for human rights alignment.
 
-Build an Inclusive Social Web
+#### Build an Inclusive Social Web
 
 Create decentralized, interoperable internet ecosystem prioritizing user agency.
 
 Support open protocols for interoperability; encourage community-driven platforms; develop digital literacy programs.
 
 These purposes address challenges like the digital divide, privacy risks, and technical barriers, ensuring an inclusive digital future.
-Implications for Human Rights
+
+### Implications for Human Rights
 The shift to a digital society has significant implications for human rights, as outlined below:
 Right to Access: Universal access to digital tools is essential for participating in modern society, akin to rights to education or expression. The digital divide, as noted in UN Social Development Commission discussions Human Rights-Based Technology Policies, risks excluding vulnerable populations, necessitating policies to bridge gaps.
 
@@ -103,8 +126,10 @@ Right to Inclusion: Bridging the digital divide ensures marginalized communities
 Challenges and Considerations
 Despite the opportunities, challenges persist. The digital divide, as discussed in OECD Shaping a rights-oriented digital transformation, exacerbates social inequalities, particularly in underserved regions. Privacy and security risks, such as data breaches, are noted in ISACA Cloud Data Sovereignty Governance and Risk Implications. Interoperability issues and high costs of domain names or devices may exclude low-income individuals, as seen in VerifiMe Personhood: What Is It and How Do We Protect It?. Ethical AI development and community-driven governance models require coordinated efforts among governments, technologists, and civil society.
 Conclusion
+
 Digital transformation has redefined personhood to include digital access, identity, and agency. To support a Social Web and Human-Centric AI, individuals must have access to essential digital tools like socially-aware cloud storage, personal information processing systems, and domain names. These tools are critical for establishing digital personhood and exercising human rights in the digital age. Achieving this requires addressing challenges through universal access, user-controlled systems, and inclusive policies, ensuring an equitable, privacy-respecting digital future as of June 20, 2025.
-Key Citations
+
+### Key Citations
 Digital space and human rights
 
 Human rights-based digital transformation
@@ -134,8 +159,6 @@ Personhood: What Is It and How Do We Protect It?
 Cloud Data Sovereignty Governance and Risk Implications
 
 Human rights in the digital age
-
-37 web pages
 
 **Digital Personhood and Human Rights: A Framework for Human Centric AI and Social Internet**
 
