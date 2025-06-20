@@ -158,6 +158,10 @@ Digital transformation has redefined personhood to include digital access, ident
 
 NOTE: A far more comprehensive library of documents cthat has been collected in relation to these works [can be found here (a google drive folder)](https://drive.google.com/drive/folders/1tYFIggw8MIY5fD2u-nbwFRM6wqrhdmQZ)
 
+### Additional Citations
+- [Stanford Encyclopedia of Philosophy: Personal Identity](https://plato.stanford.edu/entries/identity-personal/)
+- [Wikipedia: Personhood](https://en.wikipedia.org/wiki/Personhood)
+
 **Digital Personhood and Human Rights: A Framework for Human Centric AI and Social Internet**
 
 **Executive Summary**
