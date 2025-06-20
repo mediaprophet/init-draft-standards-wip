@@ -90,18 +90,18 @@ The Social Web or Social Internet envisions a decentralized, user-driven interne
 To support digital personhood, Human-Centric AI, and the Social Web, the following objective purposes are necessary, with implementation strategies:
 Objective Purpose
 
-### GROK Description - Implementation Strategies
+### GROK (now hand edited) Description - Implementation Strategies
 
 #### Ensure Universal Access to Digital Tools
 
-- [ ] Provide affordable, equitable access to ICT infrastructure, including internet, devices, and software.
-- [ ] Subsidize internet and devices in underserved areas; promote open-source software; develop global digital identity standards.
-- [ ] Empower User-Controlled Data Systems
-- [ ] Enable individuals to own, manage, and protect digital data through PDS and other systems.
-- [ ] Develop decentralized cloud storage; provide user-friendly encryption tools; support data portability standards.
-- [ ] Promote Digital Identity through Domain Names
-- [ ] Provide personal domain names to establish unique digital presence, enhancing agency.
-- [ ] Subsidize domain names for marginalized communities; integrate with decentralized identity systems; educate on domain value.
+- [ ]  Provide affordable, equitable access to Critical ICT infrastructure, including internet, devices, and software.
+- [ ]  Support means to support internet and devices in underserved areas; promote open-source software; digital socio-economics; develop global digital human agency, personhood and identity standards.
+- [ ]  Empower Right to self-Determination and Human Rights via digital transformation of societies governed in reliance of Permissively-Controlled Data Systems
+- [ ]  Enable individuals to own, manage, and protect, on behalf of themselves and those whom they owe duty of guardianship, digital information and processing through fit for purpose online (connected) systems.
+- [ ]  Further Develop decentralized 'socially aware cloud storage'; provide user-friendly tools; support data portability standards and the means to create the next generation of internet & the evolution of the corpus of work defined as WWW.
+- [ ]  Promote Digital Human Identity, Personal Ontology supports and the means through Domain Names to have transformationally improved capacities, particularly, as natural persons (memebers of our human family)
+- [ ]  Provide personal domain names to establish unique digital presence, enhancing agency.  Support the means for DNS related tooling to help discern the nature of an agent and/or related derivatives.
+- [ ]  Work with a view to seeking to ensure 'western internet' is the best option for the future of humanity. this thereby includes considerations about accessibility, maintainence and retention of digital anchors for human personhood; including but not limited to, domain names marginalized communities; integrate with decentralized identity systems; educate on domain name (DNS) related underpinning values, benefits, opportunities and in-turn also, threats..
 
 #### Foster Human-Centric AI Development
 
