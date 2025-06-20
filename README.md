@@ -12,6 +12,11 @@ This repo has currently been produced - overnight ([See Commit History](https://
 **[Sense - progress report Spatio-Temporal: Human Centric AI Package Format](https://docs.google.com/document/d/1Fwx3-YYyKgeigaScoMVoTFc3V2p-0jVwOg0IvMr8TZs/edit?tab=t.0)**
 Therein also, are some diagrams and such elements about [linked data](https://github.com/linkeddata/) related information management systems, where people store 'their own data' and apps are able to be designed, to run locally, employing underlying semantics and/or 'web of data' ecosystems, that, at-large - end-up, being produced by all participating members of our human family. 
 
+## Eloquence
+the design of 'good' technology, or indeed the creation of anything 'good', often leads to recipients being able to review those works and think, or act as to suggest - that the implications are 'simple', or 'it makes sense'... or that its easy... 
+
+whilst not easy, the derivative implication is nonetheless still, an objective purpose.  the best designs, just make sense - discoveries, rather than inventions...  the innate nature, of who we are, as members of our human family, should, just, make sense.  when we meet one-another, or the implications of one-anothers being, one anothers lives, works, permissively - expressed thoughts..  interpersonally, in the real-world - or indeed also, digitally.  'online', via the [infosphere](https://en.wikipedia.org/wiki/Infosphere)...
+
 ### Use of Generative AI 
 Generative AI MAY be used to support the development of these works, however it should be declared that they have in-fact been used.  Whilst part of the purpose of these works is to improve the means through which these declarations can be made, in the interim, the RECOMMENDED approach is to declare the agent that has contributed (model / vendor ("Agent")) and who used it ('entity').  For example:  Timothy Holborn (Identifier), Grok 3/x, meta/llama-3.3-70b.
 
