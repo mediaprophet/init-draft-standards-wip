@@ -2,14 +2,13 @@
 
 The notion of Human Centric AI is thought to require some parts...  
 
-( [Git Repo](https://github.com/mediaprophet/init-draft-standards-wip))
+([Git Repo](https://github.com/mediaprophet/init-draft-standards-wip))
 
 ## WIP
 This repo has currently been produced - overnight ([See Commit History](https://github.com/mediaprophet/init-draft-standards-wip/commits/main/)) - merely, getting some resources or moreover considerations from historical works quickly processed via local AI and Grok (and a bit of local LLM - meta/llama-3.3-70b), to get something to start with; intending to then either prompt discussion, or enabling means to then improve edits.  There's alot more work still needed and some of the descriptions will not represent the intended texts associated to the historical work or future useful intents & purposes, as LLMs often - don't get it.. This is therefore intended to provide something that is hoped to be more useful, than otherwise, forming a basis for development.  Note also, historical work on 'sense' which provides some additional information about elements that i do not have confidence can be better advanced, yet...  
 
 **[Sense - progress report Spatio-Temporal: Human Centric AI Package Format](https://docs.google.com/document/d/1Fwx3-YYyKgeigaScoMVoTFc3V2p-0jVwOg0IvMr8TZs/edit?tab=t.0)**
 Therein also, are some diagrams and such elements about [linked data](https://github.com/linkeddata/) related information management systems, where people store 'their own data' and apps are able to be designed, to run locally, employing underlying semantics and/or 'web of data' ecosystems, that, at-large - end-up, being produced by all participating members of our human family. 
-
 
 ### Use of Generative AI 
 Generative AI MAY be used to support the development of these works, however it should be declared that they have in-fact been used.  Whilst part of the purpose of these works is to improve the means through which these declarations can be made, in the interim, the RECOMMENDED approach is to declare the agent that has contributed (model / vendor ("Agent")) and who used it ('entity').  For example:  Timothy Holborn (Identifier), Grok 3/x, meta/llama-3.3-70b.
@@ -29,17 +28,17 @@ The intention of these works is that they are provided to the [W3C Human Centric
 
 ## Index to Draft Documents - W3C
 
-- [Agent Discovery Protocol ("ADP")](https://mediaprophet.github.io/init-draft-standards-wip/ADP/) 
-- [Agreements](https://mediaprophet.github.io/init-draft-standards-wip/agreements/)
-- [Context Markup Language](https://mediaprophet.github.io/init-draft-standards-wip/cml/)
-- [Context Markup Language Document](https://mediaprophet.github.io/init-draft-standards-wip/CMLD/)
-- [DID-GIT](https://mediaprophet.github.io/init-draft-standards-wip/did-git/)
-- [Description Of an Agent](https://mediaprophet.github.io/init-draft-standards-wip/DOA/)
-- [Description of an Entity](https://mediaprophet.github.io/init-draft-standards-wip/DOE/)
-- [Human-Centric AI Ontology](https://mediaprophet.github.io/init-draft-standards-wip/HCAIO/)
-- [Digital Transformation, Personhood, and Human Rights](https://mediaprophet.github.io/init-draft-standards-wip/HCI/)
-- [Permissive Commons](https://mediaprophet.github.io/init-draft-standards-wip/PC/)
-- [Ontology for Multi-Entity Rights](https://mediaprophet.github.io/init-draft-standards-wip/rights/)
+- [Agent Discovery Protocol ("ADP")](https://mediaprophet.github.io/init-draft-standards-wip/ADP/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/ADP/README.md))
+- [Agreements](https://mediaprophet.github.io/init-draft-standards-wip/agreements/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/agreements/README.md))
+- [Context Markup Language](https://mediaprophet.github.io/init-draft-standards-wip/cml/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/cml/README.md))
+- [Context Markup Language Document](https://mediaprophet.github.io/init-draft-standards-wip/CMLD/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/CMLD/README.md))
+- [DID-GIT](https://mediaprophet.github.io/init-draft-standards-wip/did-git/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/did-git/README.md))
+- [Description Of an Agent](https://mediaprophet.github.io/init-draft-standards-wip/DOA/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/DOA/README.md))
+- [Description of an Entity](https://mediaprophet.github.io/init-draft-standards-wip/DOE/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/DOE/README.md))
+- [Human-Centric AI Ontology](https://mediaprophet.github.io/init-draft-standards-wip/HCAIO/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/agreements/README.md))
+- [Digital Transformation, Personhood, and Human Rights](https://mediaprophet.github.io/init-draft-standards-wip/HCI/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/HCAIO/README.md))
+- [Permissive Commons](https://mediaprophet.github.io/init-draft-standards-wip/PC/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/PC/README.md))
+- [Ontology for Multi-Entity Rights](https://mediaprophet.github.io/init-draft-standards-wip/rights/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/rights/README.md))
 
 ## Index to Draft Document - IETF
 -[ADP Internet Draft WIP](https://mediaprophet.github.io/init-draft-standards-wip/ADP/rfc.txt)
@@ -234,6 +233,12 @@ Efforts to forge a 'web of data' or ['semantic web'](https://www.w3.org/2001/sw/
 ### Reality 'check' Tech
 
 IF These works are done properly, then the outcome should be that in MOST cases, people are able to better understand the provonance and history of how things come about. This is important for the protection of human rights in society, socioeconomically, and in relation to the peacefeul resolution of disputes, in courts of law, as is amongst the many implications.  As such, the focus is on the definition of apparatus that provides these qualities, which should therefore act as to clarify the truer nature of ourselves and the world around us; at the macroscopic and microscopic levels, et. al.
+
+## MODE OF WORK: Web Civics
+These efforts are undertaken as an individual who whilst retaining rights (as least, in theory), has been undertaking works over many years in a manner that has a constituency whereby the intended purpose is about efforts for the betterment of our humanity, works to bring-effect and/or bring-about, fundamental requirements needed for all persons as a matter of human rights and/or humanitarian intents, purposes and ideally therefore also, consequences...  Akin to the structure of W3C historically, Web Civics is in-effect an unincorporated activity where persons may employ works undertaken in relation to these pursuits and criteria - on fair terms.  Whereas the [license for json](https://www.json.org/license.html) states 'The Software shall be used for Good, not Evil.' considerations in relation to web civics, is not dissimilar.  An on-going problem with works relating to 'web civics' has been that the means to support and keep safe people doing works that relate to the ideals of these sorts of 'web' based 'civics' or humanitarian activities, has not been sufficient. the consequences have been very poor, particularly for some who irraspective of whether involved with 'web civics' specifically, are no longer with us. 
+
+The means to address these problems is sought by way of forming solutions to ensure people are paid fairly (not in perpetuity) for useful works, as has historically been the case for persons - prior to digital transformation & digital slavery related issues that have become - problematic, at large...  the means to achieve these sorts of outcomes still, sadly, appears non-trivial.  as such, the nature of 'fair terms' vs. that of 'endured costs' worn by those who seek a better future for us all, becomes an implied dynamic, the nature of which, is hoped to be better influenced for the betterment of all, into the future.  Yet, if the work has already been done in a manner that is 'fit for purpose', its kinda pointless - to go seek to do it again.
+
 
 ## AUTHOR NOTE
 Historical works have been undertaken in difficult circumstances.  In what was already difficult cirumstances, The ramifications of 'covid' and my choice not to support the global deployment of 'vaccine passports' has led to serious harm and impairment, including but no exclusive to significant harms via applied policies resulting in an inability to access otherwise necessary healthcare, associated with infection and chronic pain over years, whilst said to be 'on waiting lists' and/or similar.  As such, my ability to do better, has been impaired. Best efforts are being made, in difficult circumstances, whilst having managed to survive and improve to some-degree thereby enabling me to concentrate enough to do these works as illustrated.  Support, Humanitarianly focused expertise and resources are sought to assist with the development of these works towards 'fit for purpose' outcomes; whether or not, i continue to be able to do so to any degree and/or if at all. 
