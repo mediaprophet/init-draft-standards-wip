@@ -17,7 +17,7 @@ Generative AI MAY be used to support the development of these works, however it 
 
 There are many ways generative AI can be used and employed.  However also, the abundance of complexity thereby also leads to enhanced needs to address what was already historically, a difficult problem. This includes the 'dimentionality' of authorship and related metadata techniques as to provide improved context notations as is otherwise considered by the Content Markup Language and Content Markup Language Document projects identified in this repo. Best efforts are sought to be made in the meantime.
 
-Whilst complex, the complexity is not actually infinite...
+Whilst complex, the complexity is not actually infinite...  the job, is, in many ways, about doing the work to support category theory that better supports our ability to have a meaningful common-sense about the nature of it...  
 
 ## Nomenclature
 The meaning of 'Human Centric AI' is in itself, contentious.  People seek to define it in different ways, and in-turn also, the acronyms used that may suggest Human Centric AI may also be employed to mean Human Centered AI, which is considered to be a different concept or emboidment of concepts, whilst the ambiguity generally leads to outcomes that are inverse to the intents, purposes, functional designs and ramaifications of what some (such as myself) have sought to define as to be distinguished by the term 'Human Centric', and by extension, "Human Centric AI" or indeed also, moreover as a consequence of the works of others - Human Centric Internet.
