@@ -2,8 +2,14 @@
 
 The notion of Human Centric AI is thought to require some parts...  
 
+( [Git Repo](https://github.com/mediaprophet/init-draft-standards-wip))
+
 ## WIP
-This repo has currently been produced - overnight ([See Commit History](https://github.com/mediaprophet/init-draft-standards-wip/commits/main/)) - merely, getting some resources or moreover considerations from historical works quickly processed via local AI and Grok (and a bit of local LLM - meta/llama-3.3-70b), to get something to start with; intending to then either prompt discussion, or enabling means to then improve edits.  There's alot more work still needed and some of the descriptions will not represent the intended texts associated to the historical work or future useful intents & purposes, as LLMs often - don't get it.. This is therefore intended to provide something that is hoped to be more useful, than otherwise, forming a basis for development.
+This repo has currently been produced - overnight ([See Commit History](https://github.com/mediaprophet/init-draft-standards-wip/commits/main/)) - merely, getting some resources or moreover considerations from historical works quickly processed via local AI and Grok (and a bit of local LLM - meta/llama-3.3-70b), to get something to start with; intending to then either prompt discussion, or enabling means to then improve edits.  There's alot more work still needed and some of the descriptions will not represent the intended texts associated to the historical work or future useful intents & purposes, as LLMs often - don't get it.. This is therefore intended to provide something that is hoped to be more useful, than otherwise, forming a basis for development.  Note also, historical work on 'sense' which provides some additional information about elements that i do not have confidence can be better advanced, yet...  
+
+**[Sense - progress report Spatio-Temporal: Human Centric AI Package Format](https://docs.google.com/document/d/1Fwx3-YYyKgeigaScoMVoTFc3V2p-0jVwOg0IvMr8TZs/edit?tab=t.0)**
+Therein also, are some diagrams and such elements about [linked data](https://github.com/linkeddata/) related information management systems, where people store 'their own data' and apps are able to be designed, to run locally, employing underlying semantics and/or 'web of data' ecosystems, that, at-large - end-up, being produced by all participating members of our human family. 
+
 
 ### Use of Generative AI 
 Generative AI MAY be used to support the development of these works, however it should be declared that they have in-fact been used.  Whilst part of the purpose of these works is to improve the means through which these declarations can be made, in the interim, the RECOMMENDED approach is to declare the agent that has contributed (model / vendor ("Agent")) and who used it ('entity').  For example:  Timothy Holborn (Identifier), Grok 3/x, meta/llama-3.3-70b.
