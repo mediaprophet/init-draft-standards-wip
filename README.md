@@ -5,7 +5,6 @@ The notion of Human Centric AI is thought to require some parts...
 - [Web Render of this repo](https://mediaprophet.github.io/init-draft-standards-wip/)
 - ([Git Repo](https://github.com/mediaprophet/init-draft-standards-wip))
 
-
 ## WIP
 This repo has currently been produced - overnight ([See Commit History](https://github.com/mediaprophet/init-draft-standards-wip/commits/main/)) - merely, getting some resources or moreover considerations from historical works quickly processed via local AI and Grok (and a bit of local LLM - meta/llama-3.3-70b), to get something to start with; intending to then either prompt discussion, or enabling means to then improve edits.  There's alot more work still needed and some of the descriptions will not represent the intended texts associated to the historical work or future useful intents & purposes, as LLMs often - don't get it.. This is therefore intended to provide something that is hoped to be more useful, than otherwise, forming a basis for development.  Note also, historical work on 'sense' which provides some additional information about elements that i do not have confidence can be better advanced, yet...  
 
@@ -16,24 +15,6 @@ Therein also, are some diagrams and such elements about [linked data](https://gi
 the design of 'good' technology, or indeed the creation of anything 'good', often leads to recipients being able to review those works and think, or act as to suggest - that the implications are 'simple', or 'it makes sense'... or that its easy... 
 
 whilst not easy, the derivative implication is nonetheless still, an objective purpose.  the best designs, just make sense - discoveries, rather than inventions...  the innate nature, of who we are, as members of our human family, should, just, make sense.  when we meet one-another, or the implications of one-anothers being, one anothers lives, works, permissively - expressed thoughts..  interpersonally, in the real-world - or indeed also, digitally.  'online', via the [infosphere](https://en.wikipedia.org/wiki/Infosphere)...
-
-### Use of Generative AI 
-Generative AI MAY be used to support the development of these works, however it should be declared that they have in-fact been used.  Whilst part of the purpose of these works is to improve the means through which these declarations can be made, in the interim, the RECOMMENDED approach is to declare the agent that has contributed (model / vendor ("Agent")) and who used it ('entity').  For example:  Timothy Holborn (Identifier), Grok 3/x, meta/llama-3.3-70b.
-
-There are many ways generative AI can be used and employed.  However also, the abundance of complexity thereby also leads to enhanced needs to address what was already historically, a difficult problem. This includes the 'dimentionality' of authorship and related metadata techniques as to provide improved context notations as is otherwise considered by the Content Markup Language and Content Markup Language Document projects identified in this repo. Best efforts are sought to be made in the meantime.
-
-Whilst complex, the complexity is not actually infinite...  the job, is, in many ways, about doing the work to support category theory that better supports our ability to have a meaningful common-sense about the nature of it...  
-
-## Nomenclature
-The meaning of 'Human Centric AI' is in itself, contentious.  People seek to define it in different ways, and in-turn also, the acronyms used that may suggest Human Centric AI may also be employed to mean Human Centered AI, which is considered to be a different concept or emboidment of concepts, whilst the ambiguity generally leads to outcomes that are inverse to the intents, purposes, functional designs and ramaifications of what some (such as myself) have sought to define as to be distinguished by the term 'Human Centric', and by extension, "Human Centric AI" or indeed also, moreover as a consequence of the works of others - Human Centric Internet.
-
-To address this issue, a consideration of how the useful meaning of vocabulary may be better defined by its characteristics has therefore been considered as a constituency of these works.  These can then be convayed as categories or classes of services.
-
-## Constituencies
-There is no single component that leads to support for Human Centric AI.  Rather, there are a range of components that need to be made to work together.  The structure of these works should be considered an early draft, whereby elements from multiple constituencies may be brought together into singular specification documents; for instance, as may be the case for ontology components; whilst others, may be significantly expanded upon and thereafter forged as constituencies of a broader emboidment of works.
-
-## Primary Future WIP Host(s)
-The intention of these works is that they are provided to the [W3C Human Centric AI CG](https://www.w3.org/community/humancentricai/) for consideration with the view to supporting the advancement of these works via appropriate [Internet Governance](https://en.m.wikipedia.org/wiki/Internet_governance) communities, including but not exclusive to W3C and IETF, with the intended purpose of seeking to establish royalty free - interoperable solutions, that act to render meaningful support for [Human Rights](https://www.ohchr.org/en/instruments-listings), particularly in areas where material supports are otherwise absent or compromised with thereby unnecessary compromises. Note also, that Human Rights instruments often declare duties of state praties, whereas the advent of 'digital transformation' now therefore empowers our ability to have, maintain and support the human-rights of one-another, for those members of our human family who should seek and/or choose to do so. 
 
 
 ## Index to Draft Documents - W3C
@@ -49,9 +30,34 @@ The intention of these works is that they are provided to the [W3C Human Centric
 - [Digital Transformation, Personhood, and Human Rights](https://mediaprophet.github.io/init-draft-standards-wip/HCI/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/HCAIO/README.md))
 - [Permissive Commons](https://mediaprophet.github.io/init-draft-standards-wip/PC/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/PC/README.md))
 - [Ontology for Multi-Entity Rights](https://mediaprophet.github.io/init-draft-standards-wip/rights/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/rights/README.md))
+- [Semantic Bookmarks](https://mediaprophet.github.io/init-draft-standards-wip/SemBookmarks/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/SemBookmarks/README.md))
+- [Human Centric Biometrics](https://mediaprophet.github.io/init-draft-standards-wip/biometrics/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/Biometrics/README.md))
+- [Human Centric Digital Birth Records](https://mediaprophet.github.io/init-draft-standards-wip/DigitalBirthRecord/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/DigitalBirthRecord/README.md))
+
 
 ## Index to Draft Document - IETF
 -[ADP Internet Draft WIP](https://mediaprophet.github.io/init-draft-standards-wip/ADP/rfc.txt)
+
+## Primary Future WIP Host(s)
+The intention of these works is that they are provided to the [W3C Human Centric AI CG](https://www.w3.org/community/humancentricai/) for consideration with the view to supporting the advancement of these works via appropriate [Internet Governance](https://en.m.wikipedia.org/wiki/Internet_governance) communities, including but not exclusive to W3C and IETF, with the intended purpose of seeking to establish royalty free - interoperable solutions, that act to render meaningful support for [Human Rights](https://www.ohchr.org/en/instruments-listings), particularly in areas where material supports are otherwise absent or compromised with thereby unnecessary compromises. Note also, that Human Rights instruments often declare duties of state praties, whereas the advent of 'digital transformation' now therefore empowers our ability to have, maintain and support the human-rights of one-another, for those members of our human family who should seek and/or choose to do so. 
+
+## Constituencies
+There is no single component that leads to support for Human Centric AI.  Rather, there are a range of components that need to be made to work together.  The structure of these works should be considered an early draft, whereby elements from multiple constituencies may be brought together into singular specification documents; for instance, as may be the case for ontology components; whilst others, may be significantly expanded upon and thereafter forged as constituencies of a broader emboidment of works.
+
+### Use of Generative AI 
+Generative AI MAY be used to support the development of these works, however it should be declared that they have in-fact been used.  Whilst part of the purpose of these works is to improve the means through which these declarations can be made, in the interim, the RECOMMENDED approach is to declare the agent that has contributed (model / vendor ("Agent")) and who used it ('entity').  For example:  Timothy Holborn (Identifier), Grok 3/x, meta/llama-3.3-70b.
+
+There are many ways generative AI can be used and employed.  However also, the abundance of complexity thereby also leads to enhanced needs to address what was already historically, a difficult problem. This includes the 'dimentionality' of authorship and related metadata techniques as to provide improved context notations as is otherwise considered by the Content Markup Language and Content Markup Language Document projects identified in this repo. Best efforts are sought to be made in the meantime.
+
+Whilst complex, the complexity is not actually infinite...  the job, is, in many ways, about doing the work to support category theory that better supports our ability to have a meaningful common-sense about the nature of it...  
+
+**IMPORTANT: CONTENT GENERATED BY GENERATIVE AI MAY NOT REFLECT THE VIEWS, INTENT, DESIGN, CHARACTERISTICS OR INTENDED OUTCOMES AS IS TO BE OTHERWISE DEFINED BY HUMAN ACTORS.**
+
+## Nomenclature
+The meaning of 'Human Centric AI' is in itself, contentious.  People seek to define it in different ways, and in-turn also, the acronyms used that may suggest Human Centric AI may also be employed to mean Human Centered AI, which is considered to be a different concept or emboidment of concepts, whilst the ambiguity generally leads to outcomes that are inverse to the intents, purposes, functional designs and ramaifications of what some (such as myself) have sought to define as to be distinguished by the term 'Human Centric', and by extension, "Human Centric AI" or indeed also, moreover as a consequence of the works of others - Human Centric Internet.
+
+To address this issue, a consideration of how the useful meaning of vocabulary may be better defined by its characteristics has therefore been considered as a constituency of these works.  These can then be convayed as categories or classes of services.
+
 
 ## Digital Transformation and Human Rights
 Digital transformation is reshaping how societies operate, moving from physical documents to digital systems for identity and agency. This shift impacts human rights, as access to digital tools is becoming essential for exercising fundamental rights like privacy and freedom of expression. This response explores how tools like socially-aware cloud storage, personal information processing systems, and domain names support digital personhood, Human-Centric AI, and the Social Web.
@@ -94,6 +100,12 @@ The Social Web or Social Internet envisions a decentralized, user-driven interne
 ### Objective Purposes and Implementation Strategies
 To support digital personhood, Human-Centric AI, and the Social Web, the following objective purposes are necessary, with implementation strategies:
 Objective Purpose
+
+## Addressing the 'semantic web' practitioner, product and ecosystems problems
+
+I've added a document [SemWeb Serialisation](./HCI-SemWeb-Serialisation.md) that seeks to instantiate a discussion about RDF serialsiation formats.  There's alot of history to this consideration. Generally, what has occurred, is that the vast majority have ended-up using JSON-LD as its relatively similar to JSON (based on json, etc.) however, there is an argument to say whether this has detremenetally impacted the ability to create decentralised semantic web systems that better support 'human centric ai' related requirements or not.  IF, per historical design notes / works, a specific format was necessarily required to define code in a manner that was therefore linked-data or RDF, then clarity would be improved as it would therefore be more difficult to 'fake'.
+
+
 
 ### GROK (now hand edited) Description - Implementation Strategies
 

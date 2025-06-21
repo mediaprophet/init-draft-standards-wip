@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Human-Centric Agents and Resources Ontology</title>
+  <meta charset='utf-8'>
+  <script src='https://www.w3.org/Tools/respec/respec-w3c' async class='remove'></script>
+  <script class='remove'>
+    var respecConfig = {
+      specStatus: "unofficial",
+      shortName: "human-centric-ontology",
+      editors: [{
+        name: "Anonymous",
+        company: "N/A",
+        companyURL: "https://example.org"
+      }],
+      publishDate: "2025-06-21",
+      github: "https://github.com/example/human-centric-ontology",
+      otherLinks: [{
+        key: "Acknowledgements",
+        data: [{
+          value: "This ontology was developed with the assistance of Grok, created by xAI.",
+          href: "https://x.ai"
+        }]
+      }],
+      wg: "N/A",
+      wgURI: "https://example.org",
+      wgPublicList: "public-example",
+      wgPatentURI: "https://example.org/patent-policy",
+      license: "w3c-software-doc",
+      localBiblio: {
+        "FOAF": {
+          title: "FOAF Vocabulary Specification",
+          href: "http://xmlns.com/foaf/spec/",
+          authors: ["Dan Brickley", "Libby Miller"],
+          publisher: "FOAF Project",
+          date: "2014-01-14"
+        },
+        "SOLID": {
+          title: "Solid Protocol",
+          href: "https://solidproject.org/TR/protocol",
+          authors: ["Tim Berners-Lee", "Others"],
+          publisher: "Solid Project",
+          date: "2023"
+        },
+        "DID": {
+          title: "Decentralized Identifiers (DIDs) v1.0",
+          href: "https://www.w3.org/TR/did-core/",
+          authors: ["Drummond Reed", "Manu Sporny", "Others"],
+          publisher: "W3C",
+          date: "2022-07-19"
+        }
+      }
+    };
+  </script>
+</head>
+<body>
+  <section id='abstract'>
+    <p>This document specifies an ontology for defining agents and related resources in a human-centric manner, emphasizing individual control over personal data and supporting guardianship relations. It redefines "decentralized" as "Human-Centric" while maintaining an innately decentralized methodology.</p>
+  </section>
+
+  <section id='sotd'>
+    <p>This is an unofficial draft specification and is subject to change. It is not endorsed by the W3C or any W3C working group.</p>
+  </section>
+
+  <section>
+    <h2>Introduction</h2>
+    <p>This ontology redefines "decentralized" as "Human-Centric," prioritizing individual control over personal data while maintaining an innately decentralized methodology. It ensures data subjects have a secure personal data store and supports guardianship relations for children and others requiring humanitarian support.</p>
+  </section>
+
+  <section>
+    <h2>Scope</h2>
+    <p>This ontology defines agents (persons, organizations, software agents), resources (data, services), personal data stores, and guardianship relations to enable human-centric digital identity management.</p>
+  </section>
+
+  <section>
+    <h2>Terminology</h2>
+    <dl>
+      <dt>Agent</dt><dd>An entity capable of performing actions, including persons, organizations, and software agents.</dd>
+      <dt>Person</dt><dd>A human individual.</dd>
+      <dt>Organization</dt><dd>A group of persons working together.</dd>
+      <dt>SoftwareAgent</dt><dd>A software program acting autonomously or semi-autonomously.</dd>
+      <dt>Resource</dt><dd>Anything owned, controlled, or accessed by an agent, such as data or services.</dd>
+      <dt>Data</dt><dd>Information, including personal data.</dd>
+      <dt>Service</dt><dd>A service provided by an agent.</dd>
+      <dt>PersonalDataStore</dt><dd>A secure storage system for personal data, controlled by a person or their guardian.</dd>
+      <dt>Guardianship</dt><dd>A relationship where one agent manages data for another, particularly for those requiring support.</dd>
+      <dt>Human-Centric</dt><dd>An approach prioritizing individual control over personal data, redefining "decentralized."</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>Ontology Specification</h2>
+    <p>The ontology is defined using RDF Schema (RDFS). The namespace is <code>http://example.org/ontology#</code>, abbreviated as <code>ex:</code>.</p>
+
+<section>
+  <h3>Classes</h3>
+  <ul>
+    <li><code>ex:Agent</code>: An entity capable of actions.</li>
+    <li><code>ex:Person</code>: A human individual, subclass of <code>ex:Agent</code>.</li>
+    <li><code>ex:Organization</code>: A group of persons, subclass of <code>ex:Agent</code>.</li>
+    <li><code>ex:SoftwareAgent</code>: A software program, subclass of <code>ex:Agent</code>.</li>
+    <li><code>ex:Resource</code>: Anything owned, controlled, or accessed by an agent.</li>
+    <li><code>ex:Data</code>: Information, subclass of <code>ex:Resource</code>.</li>
+    <li><code>ex:Service</code>: A service, subclass of <code>ex:Resource</code>.</li>
+    <li><code>ex:PersonalDataStore</code>: A secure storage for personal data.</li>
+  </ul>
+</section>
+
+<section>
+  <h3>Properties</h3>
+  <ul>
+    <li><code>ex:hasGuardian</code>: Links a person to their guardian. Domain: <code>ex:Person</code>, Range: <code>ex:Agent</code>.</li>
+    <li><code>ex:isGuardianOf</code>: Links a guardian to a person. Domain: <code>ex:Agent</code>, Range: <code>ex:Person</code>. Inverse of <code>ex:hasGuardian</code>.</li>
+    <li><code>ex:owns</code>: Indicates ownership of a resource. Domain: <code>ex:Agent</code>, Range: <code>ex:Resource</code>.</li>
+    <li><code>ex:controls</code>: Indicates control over a resource. Domain: <code>ex:Agent</code>, Range: <code>ex:Resource</code>.</li>
+    <li><code>ex:hasDataStore</code>: Links a person to their personal data store. Domain: <code>ex:Person</code>, Range: <code>ex:PersonalDataStore</code>.</li>
+    <li><code>ex:controlledBy</code>: Indicates the controller of a personal data store. Domain: <code>ex:PersonalDataStore</code>, Range: <code>ex:Agent</code>.</li>
+    <li><code>ex:storesData</code>: Indicates data stored in a personal data store. Domain: <code>ex:PersonalDataStore</code>, Range: <code>ex:Data</code>.</li>
+    <li><code>ex:requiresAccessTo</code>: Indicates data required by a service. Domain: <code>ex:Service</code>, Range: <code>ex:Data</code>.</li>
+    <li><code>ex:hasConsentFrom</code>: Indicates consent for data access. Domain: <code>ex:Service</code>, Range: <code>ex:Agent</code>.</li>
+  </ul>
+</section>
+  </section>
+
+  <section>
+    <h2>Examples</h2>
+    <p>Below is an example in Turtle notation illustrating the ontology:</p>
+    <pre class='example turtle'>
+@prefix ex: <http://example.org/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+ex:Alice a ex:Person ;
+  ex:hasGuardian ex:Bob ;
+  ex:hasDataStore ex:AlicesDataStore ;
+  foaf:name "Alice" .
+ex:Bob a ex:Person ;
+  ex:isGuardianOf ex:Alice ;
+  foaf:name "Bob" .
+ex:AlicesDataStore a ex:PersonalDataStore ;
+  ex:controlledBy ex:Bob ;
+  ex:storesData ex:AlicesData .
+ex:AlicesData a ex:Data ;
+  ex:ownedBy ex:Alice .
+ex:SomeService a ex:Service ;
+  ex:requiresAccessTo ex:AlicesData ;
+  ex:hasConsentFrom ex:Bob .
+    </pre>
+  </section>
+  <section>
+    <h2>Security and Privacy Considerations</h2>
+    <p>Implementations must ensure robust encryption, access controls, and transparent consent mechanisms to protect data subjects. Personal data stores should use secure protocols like TLS and comply with regulations like GDPR.</p>
+  </section>
+
+  <section>
+    <h2>Implementation Guidelines</h2>
+    <p>Implementations may leverage Solid [[SOLID]] for personal data stores, Decentralized Identifiers [[DID]] for identity management, and RDF-based systems for interoperability. Consent management should align with W3C Data Privacy Vocabularies.</p>
+  </section>
+
+  <section>
+    <h2>Conclusion</h2>
+    <p>This ontology enables a human-centric approach to digital identity, ensuring data subjects control their data via secure personal data stores and supporting guardianship for humanitarian needs.</p>
+  </section>
+
+</body>
+</html>
