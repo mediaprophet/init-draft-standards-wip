@@ -19,21 +19,20 @@ whilst not easy, the derivative implication is nonetheless still, an objective p
 
 ## Index to Draft Documents - W3C
 
-- [Agent Discovery Protocol ("ADP")](https://mediaprophet.github.io/init-draft-standards-wip/ADP/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/ADP/README.md))
-- [Agreements](https://mediaprophet.github.io/init-draft-standards-wip/agreements/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/agreements/README.md))
-- [Context Markup Language](https://mediaprophet.github.io/init-draft-standards-wip/cml/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/cml/README.md))
-- [Context Markup Language Document](https://mediaprophet.github.io/init-draft-standards-wip/CMLD/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/CMLD/README.md))
-- [DID-GIT](https://mediaprophet.github.io/init-draft-standards-wip/did-git/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/did-git/README.md))
-- [Description Of an Agent](https://mediaprophet.github.io/init-draft-standards-wip/DOA/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/DOA/README.md))
-- [Description of an Entity](https://mediaprophet.github.io/init-draft-standards-wip/DOE/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/DOE/README.md))
-- [Human-Centric AI Ontology](https://mediaprophet.github.io/init-draft-standards-wip/HCAIO/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/agreements/README.md))
-- [Digital Transformation, Personhood, and Human Rights](https://mediaprophet.github.io/init-draft-standards-wip/HCI/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/HCAIO/README.md))
-- [Permissive Commons](https://mediaprophet.github.io/init-draft-standards-wip/PC/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/PC/README.md))
-- [Ontology for Multi-Entity Rights](https://mediaprophet.github.io/init-draft-standards-wip/rights/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/rights/README.md))
-- [Semantic Bookmarks](https://mediaprophet.github.io/init-draft-standards-wip/SemBookmarks/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/SemBookmarks/README.md))
-- [Human Centric Biometrics](https://mediaprophet.github.io/init-draft-standards-wip/biometrics/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/Biometrics/README.md))
-- [Human Centric Digital Birth Records](https://mediaprophet.github.io/init-draft-standards-wip/DigitalBirthRecord/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/DigitalBirthRecord/README.md))
-
+- [Agent Discovery Protocol ("ADP")](https://mediaprophet.github.io/init-draft-standards-wip/ADP/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/ADP/README.md)): To provide a public means for associating basic (public) information about the holder of a domain or sub-domain.
+- [Agreements](https://mediaprophet.github.io/init-draft-standards-wip/agreements/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/agreements/README.md)): to provide a means for people to form agreements (inc. support for constituencies) with one-another.
+- [Context Markup Language](https://mediaprophet.github.io/init-draft-standards-wip/cml/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/cml/README.md)): to define the intended, specified meaning of otherwise unstructured text.
+- [Context Markup Language Document](https://mediaprophet.github.io/init-draft-standards-wip/CMLD/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/CMLD/README.md)): to support CML in an external document (eg; similar to a css or js file)
+- [DID-GIT](https://mediaprophet.github.io/init-draft-standards-wip/did-git/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/did-git/README.md)): to define a DID for GIT.
+- [Description Of an Agent](https://mediaprophet.github.io/init-draft-standards-wip/DOA/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/DOA/README.md)): To provide ontology for 'agents'.
+- [Description of an Entity](https://mediaprophet.github.io/init-draft-standards-wip/DOE/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/DOE/README.md)); to provide ontology for 'entities'
+- [Human-Centric AI Ontology](https://mediaprophet.github.io/init-draft-standards-wip/HCAIO/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/agreements/README.md)): to provide top-level ontology for human beings and Human Centric AI.
+- [Permissive Commons](https://mediaprophet.github.io/init-draft-standards-wip/PC/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/PC/README.md)): to update 'open-data' and/or 'commons' supports to incorporate use of non-http-uris for linked-data (rdf) resources.
+- [Ontology for Multi-Entity Rights](https://mediaprophet.github.io/init-draft-standards-wip/rights/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/rights/README.md)): to define a rights-framework that better reflects considerations in relation to electronic informational resources and related semantics.
+- [Semantic Bookmarks](https://mediaprophet.github.io/init-draft-standards-wip/SemBookmarks/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/SemBookmarks/README.md)): to update 'web-bookmarks' to support semantic (RDF) information.  May also consider how to decentralise archival support for internet (ie; web) resources.
+- [Human Centric Biometrics](https://mediaprophet.github.io/init-draft-standards-wip/biometrics/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/Biometrics/README.md)): to define how people can own their own biometrics, whilst enabling means to ensure manageable and permissive use of online systems in relation to the use of them.  
+- [Human Centric Digital Birth Records](https://mediaprophet.github.io/init-draft-standards-wip/DigitalBirthRecord/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/DigitalBirthRecord/README.md)): to provide a foundation for 'Human Centric AI / Web / Internet' related systems, ensuring natural persons (rather than registered legal personalities) have digital agency.
+- [Digital Transformation, Personhood, and Human Rights](https://mediaprophet.github.io/init-draft-standards-wip/HCI/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/HCAIO/README.md)): thoughts and considerations about the challenges.
 
 ## Index to Draft Document - IETF
 -[ADP Internet Draft WIP](https://mediaprophet.github.io/init-draft-standards-wip/ADP/rfc.txt)
