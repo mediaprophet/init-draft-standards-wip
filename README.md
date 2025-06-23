@@ -231,6 +231,8 @@ The following projects are of particular note;
 - [WebID](https://www.w3.org/community/webid/)
 - [RWW](https://www.w3.org/community/rww/)
 
+**SeeAlso [Eco-System Notes](./ecosystemNotes.md)**
+
 Efforts to forge a 'web of data' or ['semantic web'](https://www.w3.org/2001/sw/wiki/Main_Page) to address 'semantics' has been on-going since [1994](https://www.youtube.com/watch?v=UkjyCPuTKPw) if not before.  There are many elements associated to these works, which can be reviewed by searching the [w3c email mailing lists](https://www.w3.org/Search/Mail/Public/search?indexes=Public&resultsperpage=100&sortby=date-asc) including 'web-payments' which acted to bring about works on ['verifiable claims'](https://w3c.github.io/vctf/), ['credentials'](https://www.w3.org/community/credentials/2014/08/06/call-for-participation-in-credentials-community-group/) and ['decentralised identifiers'](https://www.w3.org/TR/did-1.0/), whilst the growth of [ldp](https://www.w3.org/TR/ldp/) and works relating to [design issues](https://web.archive.org/web/*/https://www.w3.org/DesignIssues/) and our means to address [social web](https://www.youtube.com/watch?v=V7qOhjja7jM) issues, thereby also leading to efforts to advanced what is currently known of as [solid](https://www.w3.org/community/solid/).  
 
 ### Reality 'check' Tech
@@ -244,6 +246,20 @@ These efforts are undertaken as an individual who whilst retaining rights (as le
 
 The means to address these problems is sought by way of forming solutions to ensure people are paid fairly (not in perpetuity) for useful works, as has historically been the case for persons - prior to digital transformation & digital slavery related issues that have become - problematic, at large...  the means to achieve these sorts of outcomes still, sadly, appears non-trivial.  as such, the nature of 'fair terms' vs. that of 'endured costs' worn by those who seek a better future for us all, becomes an implied dynamic, the nature of which, is hoped to be better influenced for the betterment of all, into the future.  Yet, if the work has already been done in a manner that is 'fit for purpose', its kinda pointless - to go seek to do it again.
 
+
+### Use of Respec
+
+**W3C CG Report Requirements**
+https://www.w3.org/community/reports/reqs/
+
+**ReSpec.js — W3C Specification Writing Tool**
+https://dev.w3.org/2008/video/mediaann/ReSpec.js/documentation.html
+
+**W3C Manual of Style**
+https://www.w3.org/guide/manual-of-style/
+
+**Verifiable Credentials for ReSpec**
+https://github.com/w3c/respec-vc 
 
 ## AUTHOR NOTE
 Historical works have been undertaken in difficult circumstances.  In what was already difficult cirumstances, The ramifications of 'covid' and my choice not to support the global deployment of 'vaccine passports' has led to serious harm and impairment, including but no exclusive to significant harms via applied policies resulting in an inability to access otherwise necessary healthcare, associated with infection and chronic pain over years, whilst said to be 'on waiting lists' and/or similar.  As such, my ability to do better, has been impaired. Best efforts are being made, in difficult circumstances, whilst having managed to survive and improve to some-degree thereby enabling me to concentrate enough to do these works as illustrated.  Support, Humanitarianly focused expertise and resources are sought to assist with the development of these works towards 'fit for purpose' outcomes; whether or not, i continue to be able to do so to any degree and/or if at all. 
