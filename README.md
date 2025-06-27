@@ -231,7 +231,7 @@ The following projects are of particular note;
 - [WebID](https://www.w3.org/community/webid/)
 - [RWW](https://www.w3.org/community/rww/)
 
-**SeeAlso [Eco-System Notes](./ecosystemNotes.md)**
+**SeeAlso [Eco-System Notes](./ecosystemNotes.md)**  which provides some information about technology that relates to how these sorts of systems can be brought about.
 
 Efforts to forge a 'web of data' or ['semantic web'](https://www.w3.org/2001/sw/wiki/Main_Page) to address 'semantics' has been on-going since [1994](https://www.youtube.com/watch?v=UkjyCPuTKPw) if not before.  There are many elements associated to these works, which can be reviewed by searching the [w3c email mailing lists](https://www.w3.org/Search/Mail/Public/search?indexes=Public&resultsperpage=100&sortby=date-asc) including 'web-payments' which acted to bring about works on ['verifiable claims'](https://w3c.github.io/vctf/), ['credentials'](https://www.w3.org/community/credentials/2014/08/06/call-for-participation-in-credentials-community-group/) and ['decentralised identifiers'](https://www.w3.org/TR/did-1.0/), whilst the growth of [ldp](https://www.w3.org/TR/ldp/) and works relating to [design issues](https://web.archive.org/web/*/https://www.w3.org/DesignIssues/) and our means to address [social web](https://www.youtube.com/watch?v=V7qOhjja7jM) issues, thereby also leading to efforts to advanced what is currently known of as [solid](https://www.w3.org/community/solid/).  
 
