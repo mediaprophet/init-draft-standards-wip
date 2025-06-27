@@ -77,7 +77,7 @@
             });
             mermaid.run({ querySelector: '.mermaid' });
           }
-        }, 1000);
+        }, 1000); // Increased timeout slightly as a precaution, though 1000ms is usually fine.
       }]
     };
   </script>
@@ -232,53 +232,60 @@ sequenceDiagram
       </p>
       <pre class="mermaid diagram">
 classDiagram
-  class Agreement {
-    +string id
-    +string created
-    +string modified
-    +string version
-  }
-  class Party {
-    +string id
-    +string type
-    +string name
-  }
-  class Term {
-    +string id
-    +string description
-    +string validFrom
-    +string validUntil
-  }
-  class Signature {
-    +string id
-    +string signer
-    +string signatureValue
-  }
-  class Constituency {
-    +string id
-    +string reference
-  }
-  class Credential {
-    +string id
-    +string type
-    +string issuer
-  }
-  class TemporalMetadata {
-    +string coolingOffEnd
-    +string validityPeriods
-  }
-  class HistoricalAccess {
-    +string resource
-    +string accessPeriod
-  }
-  Agreement ||--o{ Party : "hasParty"
-  Agreement ||--o{ Term : "hasTerm"
-  Agreement ||--o{ Signature : "hasSignature"
-  Agreement ||--o{ Constituency : "hasConstituency"
-  Agreement ||--o{ TemporalMetadata : "hasTemporal"
-  Term ||--o{ Credential : "references"
-  TemporalMetadata ||--o{ HistoricalAccess : "hasHistoricalAccess"
+class Agreement {
+  +URI id
+  +Date created
+  +Date modified
+  +String version
+  +Party parties
+  +Term terms
+  +Signature signatures
+  +Constituency constituencies
+  +TemporalMetadata temporal
 }
+class Party {
+  +URI id
+  +String type (NaturalPerson, LegalPerson)
+  +String name
+}
+class Term {
+  +URI id
+  +String description
+  +Credential credential
+  +Date validFrom
+  +Date validUntil
+}
+class Signature {
+  +URI id
+  +String signer
+  +String signatureValue
+}
+class Constituency {
+  +URI id
+  +String reference (e.g., UDHR)
+}
+class Credential {
+  +URI id
+  +String type (e.g., ValueCredential)
+  +String issuer
+}
+class TemporalMetadata {
+  +Date coolingOffEnd
+  +Date validityPeriods
+  +HistoricalAccess historicalAccess
+}
+class HistoricalAccess {
+  +URI resource
+  +Term applicableTerms
+  +Date accessPeriod
+}
+Agreement ||--o{ Party : hasParty
+Agreement ||--o{ Term : hasTerm
+Agreement ||--o{ Signature : hasSignature
+Agreement ||--o{ Constituency : hasConstituency
+Agreement ||--o| TemporalMetadata : hasTemporal
+Term ||--o| Credential : references
+TemporalMetadata ||--o{ HistoricalAccess : hasHistoricalAccess
       </pre>
     </section>
     <section id="ontology">
