@@ -62,9 +62,8 @@ Web of Things (WoT) Discovery: https://www.w3.org/TR/wot-discovery/
 Web of Things: https://www.w3.org/WoT/ 
 Web of Things (WoT) Architecture 1.1: https://w3c.github.io/wot-architecture/
 
-
-
 ## Ontology Basics
+The RDF Data Cube Vocabulary - https://www.w3.org/TR/vocab-data-cube/ 
 Shapes Constraint Language (SHACL): https://www.w3.org/TR/shacl/ 
 Shape Expressions Language 2.1: https://shex.io/shex-semantics/index.html 
 ODRL Version 2.2 Ontology: https://www.w3.org/ns/odrl/2/ 
@@ -94,3 +93,5 @@ Privacy Principles: https://www.w3.org/TR/privacy-principles/
 
 - https://solid.github.io/chat/
 - https://solidproject.org/TR/protocol 
+
+- Web Of Trust http://xmlns.com/wot/0.1/ 
