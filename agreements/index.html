@@ -230,61 +230,62 @@ sequenceDiagram
       </p>
       <pre class="mermaid">
 classDiagram
-  class Agreement {
-    +string id
-    +string created
-    +string modified
-    +string version
-    +string parties
-    +string terms
-    +string signatures
-    +string constituencies
-    +string temporal
-  }
-  class Party {
-    +string id
-    +string type
-    +string name
-  }
-  class Term {
-    +string id
-    +string description
-    +string credential
-    +string validFrom
-    +string validUntil
-  }
-  class Signature {
-    +string id
-    +string signer
-    +string signatureValue
-  }
-  class Constituency {
-    +string id
-    +string reference
-  }
-  class Credential {
-    +string id
-    +string type
-    +string issuer
-  }
-  class TemporalMetadata {
-    +string coolingOffEnd
-    +string validityPeriods
-    +string historicalAccess
-  }
-  class HistoricalAccess {
-    +string resource
-    +string applicableTerms
-    +string accessPeriod
-  }
-  Agreement ||--o{ Party : hasParty
-  Agreement ||--o{ Term : hasTerm
-  Agreement ||--o{ Signature : hasSignature
-  Agreement ||--o{ Constituency : hasConstituency
-  Agreement ||--o{ TemporalMetadata : hasTemporal
-  Term ||--o{ Credential : references
-  TemporalMetadata ||--o{ HistoricalAccess : hasHistoricalAccess
+
+class Agreement {
+  +string id
+  +string created
+  +string modified
+  +string version
 }
+
+class Party {
+  +string id
+  +string type
+  +string name
+}
+
+class Term {
+  +string id
+  +string description
+  +string validFrom
+  +string validUntil
+}
+
+class Signature {
+  +string id
+  +string signer
+  +string signatureValue
+}
+
+class Constituency {
+  +string id
+  +string reference
+}
+
+class Credential {
+  +string id
+  +string type
+  +string issuer
+}
+
+class TemporalMetadata {
+  +string coolingOffEnd
+  +string validityPeriods
+}
+
+class HistoricalAccess {
+  +string resource
+  +string applicableTerms
+  +string accessPeriod
+}
+
+Agreement --> Party : hasParty
+Agreement --> Term : hasTerm
+Agreement --> Signature : hasSignature
+Agreement --> Constituency : hasConstituency
+Agreement --> TemporalMetadata : hasTemporal
+Term --> Credential : references
+TemporalMetadata --> HistoricalAccess : hasHistoricalAccess
       </pre>
     </section>
     <section id="ontology">
