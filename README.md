@@ -19,7 +19,6 @@ the design of 'good' technology, or indeed the creation of anything 'good', ofte
 whilst not easy, the derivative implication is nonetheless still, an objective purpose.  the best designs, just make sense - discoveries, rather than inventions...  the innate nature, of who we are, as members of our human family, should, just, make sense.  when we meet one-another, or the implications of one-anothers being, one anothers lives, works, permissively - expressed thoughts..  interpersonally, in the real-world - or indeed also, digitally.  'online', via the [infosphere](https://en.wikipedia.org/wiki/Infosphere)...
 
 
-
 ## Index to Draft Documents - W3C
 
 - [Agent Discovery Protocol ("ADP")](https://mediaprophet.github.io/init-draft-standards-wip/ADP/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/ADP/README.md)): To provide a public means for associating basic (public) information about the holder of a domain or sub-domain.
@@ -263,6 +262,11 @@ https://www.w3.org/guide/manual-of-style/
 
 **Verifiable Credentials for ReSpec**
 https://github.com/w3c/respec-vc 
+
+**Mermaid Diagrams**
+- https://mermaid.js.org/#/
+- https://mermaid.live/ 
+
 
 ## AUTHOR NOTE
 Historical works have been undertaken in difficult circumstances.  In what was already difficult cirumstances, The ramifications of 'covid' and my choice not to support the global deployment of 'vaccine passports' has led to serious harm and impairment, including but no exclusive to significant harms via applied policies resulting in an inability to access otherwise necessary healthcare, associated with infection and chronic pain over years, whilst said to be 'on waiting lists' and/or similar.  As such, my ability to do better, has been impaired. Best efforts are being made, in difficult circumstances, whilst having managed to survive and improve to some-degree thereby enabling me to concentrate enough to do these works as illustrated.  Support, Humanitarianly focused expertise and resources are sought to assist with the development of these works towards 'fit for purpose' outcomes; whether or not, i continue to be able to do so to any degree and/or if at all. 
