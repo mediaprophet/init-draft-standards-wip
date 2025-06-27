@@ -12,8 +12,8 @@
       editors: [{
         name: "Timothy C. Holborn",
         company: "WebCivics",
-        url: "https://www.linkedin.com/in/ubiquitous/"},
-        {
+        url: "https://www.linkedin.com/in/ubiquitous/"
+      }, {
         name: "Grok 3",
         company: "xAI",
         url: "https://x.ai"
@@ -59,14 +59,22 @@
           href: "https://solidproject.org/TR/",
           publisher: "Solid Community Group"
         },
-        "W3C-Credentials": {
+        "W3Collection {
           title: "Verifiable Credentials Data Model",
           href: "https://www.w3.org/TR/vc-data-model/",
           publisher: "W3C Credentials Community Group"
         }
       },
       postProcess: [function() {
-        mermaid.initialize({ startOnLoad: true });
+        if (typeof mermaid !== 'undefined' && mermaid.initialize) {
+          mermaid.initialize({ 
+            startOnLoad: true,
+            theme: 'default',
+            sequence: { showSequenceNumbers: false },
+            classDiagram: { useMaxWidth: true },
+            stateDiagram: { useMaxWidth: true }
+          });
+        }
       }]
     };
   </script>
@@ -148,8 +156,8 @@ sequenceDiagram
   participant Bob
   participant AliceAI as Alice's AI Agent
   participant BobAI as Bob's AI Agent
-  Alice->>AliceAI: Compose connection request with terms (UDHR, CRC, 7-day cooling-off)
-  AliceAI->>BobAI: Send request (RDF, JSON-LD)
+  Alice->>AliceAI: Compose connection request with terms
+  AliceAI->>BobAI: Send request
   BobAI->>Bob: Notify and present terms
   Bob->>BobAI: Review and propose modifications
   BobAI->>AliceAI: Send modified terms
@@ -212,7 +220,7 @@ sequenceDiagram
       <ul>
         <li><strong>Agreement Class:</strong> Defines the agreement, including parties, terms, and metadata (e.g., creation date, version).</li>
         <li><strong>Terms:</strong> Express and implied terms, linked to value credentials or external instruments (e.g., [[UDHR]]).</li>
-        <li><strong>Signatures:</strong> Cryptographic signatures per [[W3C-Credentials]] to ensure authenticity.</li>
+        <li><strong>Signatures:</strong> Cryptographic signatures per [[W3C-Credential]] to ensure authenticity.</li>
         <li><strong>Constituencies:</strong> References to related instruments, such as prior agreements or legal frameworks.</li>
         <li><strong>Temporal Metadata:</strong> Timestamps, versioning, cooling-off period, validity periods, and historical access rules to support relationship changes and resource access under past terms.</li>
       </ul>
@@ -222,63 +230,61 @@ sequenceDiagram
       <pre class="mermaid">
 classDiagram
   class Agreement {
-    +URI id
-    +Date created
-    +Date modified
-    +String version
-    +Party[] parties
-    +Term[] terms
-    +Signature[] signatures
-    +Constituency[] constituencies
-    +TemporalMetadata temporal
+    +string id
+    +string created
+    +string modified
+    +string version
+    +string parties
+    +string terms
+    +string signatures
+    +string constituencies
+    +string temporal
   }
   class Party {
-    +URI id
-    +String type (NaturalPerson, LegalPerson)
-    +String name
+    +string id
+    +string type
+    +string name
   }
   class Term {
-    +URI id
-    +String description
-    +Credential credential
-    +Date validFrom
-    +Date validUntil
+    +string id
+    +string description
+    +string credential
+    +string validFrom
+    +string validUntil
   }
   class Signature {
-    +URI id
-    +String signer
-    +String signatureValue
+    +string id
+    +string signer
+    +string signatureValue
   }
   class Constituency {
-    +URI id
-    +String reference (e.g., UDHR)
+    +string id
+    +string reference
   }
   class Credential {
-    +URI id
-    +String type (e.g., ValueCredential)
-    +String issuer
+    +string id
+    +string type
+    +string issuer
   }
   class TemporalMetadata {
-    +Date coolingOffEnd
-    +Date[] validityPeriods
-    +HistoricalAccess[] historicalAccess
+    +string coolingOffEnd
+    +string validityPeriods
+    +string historicalAccess
   }
   class HistoricalAccess {
-    +URI resource
-    +Term[] applicableTerms
-    +Date accessPeriod
+    +string resource
+    +string applicableTerms
+    +string accessPeriod
   }
   Agreement ||--o{ Party : hasParty
   Agreement ||--o{ Term : hasTerm
   Agreement ||--o{ Signature : hasSignature
   Agreement ||--o{ Constituency : hasConstituency
-  Agreement ||--o| TemporalMetadata : hasTemporal
-  Term ||--o| Credential : references
+  Agreement ||--o{ TemporalMetadata : hasTemporal
+  Term ||--o{ Credential : references
   TemporalMetadata ||--o{ HistoricalAccess : hasHistoricalAccess
+}
       </pre>
-      <p>
-        SHACL shapes validate the structure and content of agreements, ensuring compliance with the ontology and temporal constraints.
-      </p>
     </section>
     <section id="ontology">
       <h3>Ontology</h3>
@@ -312,13 +318,13 @@ sequenceDiagram
   participant AI as Personal AI Agent
   participant Pod as Solid Pod
   participant Service as Compatible Service
-  User->>AI: Request agreement creation with cooling-off period
-  AI->>Pod: Store draft agreement (RDF)
+  User->>AI: Request agreement creation
+  AI->>Pod: Store draft agreement
   AI->>Service: Send agreement proposal
   Service->>AI: Return modified agreement
   AI->>User: Notify modifications
   User->>AI: Approve and sign agreement
-  AI->>Pod: Store signed agreement with temporal metadata
+  AI->>Pod: Store signed agreement
   AI->>Service: Send signed agreement
   Note over AI,Pod: Cooling-off period active
   AI->>Pod: Query agreement for compliance
@@ -329,7 +335,7 @@ sequenceDiagram
     AI->>Service: Notify variation
     AI->>Pod: Retain historical access rights
   end
-  AI->>User: Alert if conflict or temporal change detected
+  AI->>User: Alert if conflict detected
       </pre>
     </section>
     <section id="temporal-dynamics">
@@ -340,16 +346,16 @@ sequenceDiagram
       <pre class="mermaid">
 stateDiagram-v2
   [*] --> DraftAgreement
-  DraftAgreement --> ActiveAgreement : Sign with cooling-off period
+  DraftAgreement --> ActiveAgreement : Sign with cooling-off
   ActiveAgreement --> ActiveAgreement : Cooling-off period expires
   ActiveAgreement --> Terminated : Withdrawal during cooling-off
-  ActiveAgreement --> VariedAgreement : Relationship change (e.g., personal to professional)
+  ActiveAgreement --> VariedAgreement : Relationship change
   VariedAgreement --> ActiveAgreement : New terms signed
   ActiveAgreement --> Terminated : Agreement termination
   ActiveAgreement --> EmergencyAgreement : Emergency provisions
   EmergencyAgreement --> ActiveAgreement : Emergency resolved
   ActiveAgreement --> GuardianshipAgreement : Guardianship required
-  GuardianshipAgreement --> ActiveAgreement : Guardianship ends (e.g., child reaches adulthood)
+  GuardianshipAgreement --> ActiveAgreement : Guardianship ends
   note right of ActiveAgreement
     Historical resources accessible under past terms
   end note
