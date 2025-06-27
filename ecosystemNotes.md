@@ -27,9 +27,9 @@ Whether and/or how these works now act as to support these purposes, is yet to b
 
 
 ### RDF
-RDF: https://www.w3.org/RDF/ 
-RDF-star and SPARQL-star: https://w3c.github.io/rdf-star/cg-spec/editors_draft.html 
-RDF-star: https://w3c.github.io/rdf-star/ 
+- RDF: https://www.w3.org/RDF/ 
+- RDF-star and SPARQL-star: https://w3c.github.io/rdf-star/cg-spec/editors_draft.html 
+- RDF-star: https://w3c.github.io/rdf-star/ 
 
 ### Sparql 
 Sparql is a query language.
@@ -88,10 +88,15 @@ WebCredits: https://webcredits.org/ | https://webcredits.github.io/spec/
 CogAI Chunks and Rules: https://w3c.github.io/cogai/ 
 
 
-NOTES:
+**NOTES:**
 Privacy Principles: https://www.w3.org/TR/privacy-principles/ 
 
 - https://solid.github.io/chat/
 - https://solidproject.org/TR/protocol 
 
 - Web Of Trust http://xmlns.com/wot/0.1/ 
+
+
+## Broader Notes
+
+As to be addressed further at a later date; The development of Internet and in-turn also WWW, has had a symbiotic relationship.  People often do not understand IP portfolios and the challenges relating to propriatery intellectual property and/or IPR generally, which acts disaffectively in a plurity of manners, differentiated whilst also pervasive, across the socioeconomic 'digitally instigated' ecology.  One of the major areas thought most important is about **ontology**, and whilst WWW works have been focused on HTTP(x) applications, a belief is that these methods may best be developed across internet more broadly.  the implications of these sorts of considerations, are non-trivial, yet also, somewhat instrumental.  
