@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RDF Token Definition for SLP Tokens</title>
+  <script src="https://www.w3.org/Tools/respec/respec-w3c-common" class="remove"></script>
+  <script class="remove">
+    var respecConfig = {
+      specStatus: "unofficial",
+      shortName: "slp-rdf-token",
+      editors: [{
+        name: "Assistant",
+        company: "Example Org",
+        companyURL: "https://example.org/"
+      }],
+      publishDate: "2025-06-27",
+      edDraftURI: "https://example.com/slp-rdf-token",
+      copyrightStart: "2025",
+      license: "w3c-software-doc",
+      abstract: "This specification defines an RDF-based token definition for SLP tokens, stored on IPFS and referenced via a URL in the token's metadata to support semantic functionality.",
+      toc: true
+    };
+  </script>
+</head>
+<body>
+  <section id="abstract">
+    <p>This specification outlines a method to define RDF-based token definitions for Simple Ledger Protocol (SLP) tokens on Bitcoin Cash. These definitions are stored on IPFS and referenced via a URL in the token's GENESIS transaction, enabling semantic functionality for machine-readable descriptions and interoperability.</p>
+  </section>
+
+  <section id="sotd">
+    <p>This is an unofficial draft and may evolve based on community feedback.</p>
+  </section>
+
+  <section id="introduction">
+    <h2>Introduction</h2>
+    <p>The Simple Ledger Protocol (SLP) enables token creation and management on the Bitcoin Cash blockchain. This specification enhances SLP tokens by introducing an RDF-based token definition, stored on IPFS and linked via the token’s document URI. This approach leverages RDF for semantic richness and IPFS for decentralized, immutable storage, supporting advanced use cases like automated reasoning and integration with semantic web technologies.</p>
+  </section>
+
+  <section id="conformance">
+    <p>Sections marked as non-normative, along with guidelines, diagrams, examples, and notes, are non-normative. All other content is normative. The terms "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" are to be interpreted as per [[RFC2119]].</p>
+  </section>
+
+  <section id="terminology">
+    <h2>Terminology</h2>
+    <dl>
+      <dt>SLP</dt>
+      <dd>Simple Ledger Protocol, a token protocol for Bitcoin Cash.</dd>
+      <dt>IPFS</dt>
+      <dd>InterPlanetary File System, a decentralized content-addressed storage system.</dd>
+      <dt>RDF</dt>
+      <dd>Resource Description Framework, a web standard for machine-readable data interchange.</dd>
+      <dt>Token</dt>
+      <dd>A digital asset managed via SLP on Bitcoin Cash.</dd>
+      <dt>Self-Mint Protocol</dt>
+      <dd>An SLP extension allowing decentralized token minting by users.</dd>
+    </dl>
+  </section>
+
+  <section id="rdf-vocabulary">
+    <h2>RDF Vocabulary</h2>
+    <p>The RDF vocabulary uses the namespace <code>http://example.org/slp#</code>.</p>
+    <p><strong>Classes:</strong></p>
+    <ul>
+      <li><code>slp:Token</code>: An SLP token.</li>
+      <li><code>slp:SelfMintRules</code>: Minting rules for self-mint tokens.</li>
+    </ul>
+    <p><strong>Properties:</strong></p>
+    <ul>
+      <li><code>slp:tokenId</code>: Unique token identifier (range: <code>xsd:string</code>).</li>
+      <li><code>slp:name</code>: Token name (range: <code>xsd:string</code>).</li>
+      <li><code>slp:symbol</code>: Token symbol (range: <code>xsd:string</code>).</li>
+      <li><code>dcterms:description</code>: Token description (range: <code>xsd:string</code>).</li>
+      <li><code>slp:issuer</code>: Token issuer (range: <code>foaf:Agent</code>).</li>
+      <li><code>slp:decimalPlaces</code>: Number of decimal places (range: <code>xsd:integer</code>).</li>
+      <li><code>slp:mintingRules</code>: Minting rules (range: <code>slp:SelfMintRules</code>).</li>
+      <li>For <code>slp:SelfMintRules</code>:
+        <ul>
+          <li><code>slp:publicKey</code>: Public key in the self-mint covenant (range: <code>xsd:string</code>).</li>
+          <li><code>slp:stampValue</code>: Required stamp value in satoshis (range: <code>xsd:integer</code>).</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section id="rdf-token-definition">
+    <h2>RDF Token Definition</h2>
+    <p>The RDF token definition is a JSON-LD document describing an SLP token. It MUST include:</p>
+    <ul>
+      <li><code>@id</code>: IPFS URL of the document (e.g., <code>ipfs://&lt;hash&gt;</code>).</li>
+      <li><code>@type</code>: <code>slp:Token</code>.</li>
+      <li><code>slp:tokenId</code>: Token ID from the GENESIS transaction.</li>
+      <li><code>slp:name</code>: Token name.</li>
+      <li><code>slp:symbol</code>: Token symbol (1-4 characters per SLP spec).</li>
+      <li><code>dcterms:description</code>: Token description.</li>
+      <li><code>slp:issuer</code>: Issuer details (e.g., FOAF agent).</li>
+      <li><code>slp:decimalPlaces</code>: Decimal places (0-8 per SLP spec).</li>
+    </ul>
+    <p>For self-mint tokens, it SHOULD include <code>slp:mintingRules</code> with:</p>
+    <ul>
+      <li><code>slp:publicKey</code>: Public key from the GENESIS transaction’s covenant.</li>
+      <li><code>slp:stampValue</code>: Stamp value (e.g., 2300 satoshis).</li>
+    </ul>
+  </section>
+
+  <section id="storing-on-ipfs">
+    <h2>Storing on IPFS</h2>
+    <p>The RDF token definition MUST be uploaded to IPFS. The resulting content identifier (CID) forms the URL as <code>ipfs://&lt;hash&gt;</code>, which MUST be used in the token’s metadata.</p>
+  </section>
+
+  <section id="referencing-in-slp-tokens">
+    <h2>Referencing in SLP Tokens</h2>
+    <p>In the SLP GENESIS transaction, the <code>&lt;document_uri&gt;</code> field (0-64 bytes, ASCII) MUST contain the IPFS URL (e.g., <code>ipfs://&lt;hash&gt;</code>). This links the token to its RDF definition for semantic processing.</p>
+  </section>
+
+  <section id="examples">
+    <h2>Examples</h2>
+    <p><strong>Standard SLP Token:</strong></p>
+    <pre><code>{
+  "@context": {
+    "slp": "http://example.org/slp#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "ipfs://QmTokenDefHash",
+  "@type": "slp:Token",
+  "slp:tokenId": "token_id_123",
+  "slp:name": "Example Token",
+  "slp:symbol": "EXT",
+  "dcterms:description": "An example fungible token",
+  "slp:issuer": {
+    "@type": "foaf:Organization",
+    "foaf:name": "Example Corp"
+  },
+  "slp:decimalPlaces": 8
+}</code></pre>
+    <p><strong>Self-Mint Token:</strong></p>
+    <pre><code>{
+  "@context": {
+    "slp": "http://example.org/slp#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "ipfs://QmSelfMintHash",
+  "@type": "slp:Token",
+  "slp:tokenId": "self_mint_id_456",
+  "slp:name": "Self-Mint Token",
+  "slp:symbol": "SMT",
+  "dcterms:description": "A decentralized self-mintable token",
+  "slp:issuer": {
+    "@type": "foaf:Person",
+    "foaf:name": "Creator"
+  },
+  "slp:decimalPlaces": 0,
+  "slp:mintingRules": {
+    "@type": "slp:SelfMintRules",
+    "slp:publicKey": "03a34b99f22c790c4e36b2b3c2c35a36db06226e41c692fc82b8b56ac1c540c5bd",
+    "slp:stampValue": 2300
+  }
+}</code></pre>
+  </section>
+
+  <section id="security-considerations">
+    <h2>Security Considerations</h2>
+    <p>IPFS ensures immutability of the RDF document. Implementers MUST verify the IPFS URL in the GENESIS transaction matches the intended RDF definition to avoid linking to incorrect or malicious content.</p>
+  </section>
+
+  <section id="iana-considerations">
+    <h2>IANA Considerations</h2>
+    <p>No IANA actions are required.</p>
+  </section>
+
+  <section id="acknowledgements">
+    <h2>Acknowledgements</h2>
+    <p>Thanks to the SLP and Badger Cash communities, IPFS developers, and RDF contributors for foundational work enabling this specification.</p>
+  </section>
+</body>
+</html>

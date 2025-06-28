@@ -5,13 +5,45 @@ The notion of Human Centric AI is thought to require some parts...
 - [Web Render of this repo](https://mediaprophet.github.io/init-draft-standards-wip/)
 - ([Git Repo](https://github.com/mediaprophet/init-draft-standards-wip))
 
-## WIP
-This repo has currently been produced - overnight ([See Commit History](https://github.com/mediaprophet/init-draft-standards-wip/commits/main/)) - merely, getting some resources or moreover considerations from historical works quickly processed via local AI and Grok (and a bit of local LLM - meta/llama-3.3-70b), to get something to start with; intending to then either prompt discussion, or enabling means to then improve edits.  There's alot more work still needed and some of the descriptions will not represent the intended texts associated to the historical work or future useful intents & purposes, as LLMs often - don't get it.. This is therefore intended to provide something that is hoped to be more useful, than otherwise, forming a basis for development.  Note also, historical work on 'sense' which provides some additional information about elements that i do not have confidence can be better advanced, yet...  
+## WORK IN PROGRESS ("WIP")
+This repo is an early stage - work in progress.  ([See Commit History](https://github.com/mediaprophet/init-draft-standards-wip/commits/main/))  
 
-**[Sense - progress report Spatio-Temporal: Human Centric AI Package Format](https://docs.google.com/document/d/1Fwx3-YYyKgeigaScoMVoTFc3V2p-0jVwOg0IvMr8TZs/edit?tab=t.0)**
-Therein also, are some diagrams and such elements about [linked data](https://github.com/linkeddata/) related information management systems, where people store 'their own data' and apps are able to be designed, to run locally, employing underlying semantics and/or 'web of data' ecosystems, that, at-large - end-up, being produced by all participating members of our human family. 
+Intentions are:
+1. test & demonstrate the use of respec for defining web-standards ideas
+2. reformat respec docs to be non-w3c where appropriate to do so.
+3. support w3c human centric ai cg efforts, where appropriate to do so.
+4. advance some aspects of works that haven't been written-up in this format (or tested)
 
-- **SeeAlso [Eco-System Notes](./ecosystemNotes.md)**:  which provides some information about technologies that relates to how these sorts of 'human centric' ecosystems can be brought about.
+### BIG DOCUMENTATION ISSUES At The Moment ("ATM")
+1. **Respec formatting needs many major fixes.** 
+- Decide when / where W3C Template should be used, and when it should not be  used; then provide alternative.
+- when providing alternative, define licensing framework for it.
+- Its important to 'label' the use of agents.  This can only be done in a limited way presently (ie: acknowledgement, without in-line clarity). Presently, some documents test declarations as an author or via other experimental means. This needs to be clarified.
+
+2. **Interdiciplinary supports & Agents**
+The Audience of these works incorporates persons with various forms of [Liberal Arts Education](https://en.wikipedia.org/wiki/Liberal_arts_education) and/or fields of expertise; alongside, technical audiences otherwise skilled as software development related professionals.  A means to support coherance in relation to the plurity of these fields, needs to be supported - somehow.  Additionally, many may simply use an AI agent to process documetns and seek simple summaries, which may in-turn not provide usefully nuanced responses and/or act to engender various forms of bias.  The use of software agents may not be declared, whilst the position formed as a consequence of the use of them, may be vigourous.  
+
+### **PHASE 1 objective** 
+Quickly process historical works (inc. use of AI tools such as local AI (IE: - [meta/llama-3.3-70b](https://huggingface.co/lmstudio-community/Llama-3.3-70B-Instruct-GGUF))), Grok, etc. to get something to start with; then make improvements.  
+
+Intent is to get to a point where it can discussion, or enabling means to then improve edits or merely otherwise act as a record for personal projects (whereby respec needs to be configured to 'webcivics' not w3c - i think).  
+
+There's alot more work still needed and some of the descriptions will not represent the intended texts associated to the historical work or future useful intents & purposes, as LLMs often - don't get it.. As such, initial drafts will have erronious statements whilst still provide something that forms a basis for development.  
+
+**Note also**: historical work on 'sense' which provides some additional information about elements that i do not have confidence can be better advanced, yet...  
+- **[Sense - progress report Spatio-Temporal: Human Centric AI Package Format](https://docs.google.com/document/d/1Fwx3-YYyKgeigaScoMVoTFc3V2p-0jVwOg0IvMr8TZs/edit?tab=t.0)**
+
+## Constituencies
+There are some diagrams and such elements about [linked data](https://github.com/linkeddata/) related information management systems, where people store 'their own data' and apps are able to be designed, to run locally, employing underlying semantics and/or 'web of data' ecosystems, that, at-large - end-up, being produced by all participating members of our human family. 
+
+- **SeeAlso: [Eco-System Notes](./ecosystemNotes.md)**:  which provides some information about technologies that relates to how these sorts of 'human centric' ecosystems can be brought about.
+
+Put simply, the means to get to 'human centric ai', involves steps, including growth of 'social web' foundations, which incorporates the means for people to have private high-speed access to a complete emboidment of 'their' information and related contexts, in a structured format that provides declarative statements of intended / declared meanings (ie: not otherwise enumerated). Another component is in seeking to best define content in a format that provides these declarative definitions with specificity. it is believed the means to do this properly, is a non-trivial undertaking.
+
+## Social Web & Socially Aware Cloud Storage
+
+See: TimBL Notes on [Socially Aware Cloud Storage](https://www.w3.org/DesignIssues/CloudStorage.html) and a [Presentation](https://www.w3.org/2010/Talks/0303-socialcloud-tbl/) from 2010.
+
 
 ## Eloquence
 the design of 'good' technology, or indeed the creation of anything 'good', often leads to recipients being able to review those works and think, or act as to suggest - that the implications are 'simple', or 'it makes sense'... or that its easy... 
@@ -37,7 +69,7 @@ whilst not easy, the derivative implication is nonetheless still, an objective p
 - [Digital Transformation, Personhood, and Human Rights](https://mediaprophet.github.io/init-draft-standards-wip/HCI/) ([notes](https://mediaprophet.github.io/init-draft-standards-wip/HCAIO/README.md)): thoughts and considerations about the challenges.
 
 ## Index to Draft Document - IETF
--[ADP Internet Draft WIP](https://mediaprophet.github.io/init-draft-standards-wip/ADP/rfc.txt)
+- [ADP Internet Draft WIP](https://mediaprophet.github.io/init-draft-standards-wip/ADP/rfc.txt)
 
 ## Primary Future WIP Host(s)
 The intention of these works is that they are provided to the [W3C Human Centric AI CG](https://www.w3.org/community/humancentricai/) for consideration with the view to supporting the advancement of these works via appropriate [Internet Governance](https://en.m.wikipedia.org/wiki/Internet_governance) communities, including but not exclusive to W3C and IETF, with the intended purpose of seeking to establish royalty free - interoperable solutions, that act to render meaningful support for [Human Rights](https://www.ohchr.org/en/instruments-listings), particularly in areas where material supports are otherwise absent or compromised with thereby unnecessary compromises. Note also, that Human Rights instruments often declare duties of state praties, whereas the advent of 'digital transformation' now therefore empowers our ability to have, maintain and support the human-rights of one-another, for those members of our human family who should seek and/or choose to do so. 
@@ -59,16 +91,24 @@ The meaning of 'Human Centric AI' is in itself, contentious.  People seek to def
 
 To address this issue, a consideration of how the useful meaning of vocabulary may be better defined by its characteristics has therefore been considered as a constituency of these works.  These can then be convayed as categories or classes of services.
 
-
 ## Digital Transformation and Human Rights
 Digital transformation is reshaping how societies operate, moving from physical documents to digital systems for identity and agency. This shift impacts human rights, as access to digital tools is becoming essential for exercising fundamental rights like privacy and freedom of expression. This response explores how tools like socially-aware cloud storage, personal information processing systems, and domain names support digital personhood, Human-Centric AI, and the Social Web.
-Essential Digital Tools for Personhood
-Digital personhood, the ability to have a recognized digital identity, relies on tools like:
-Socially-Aware Cloud Storage: Secure, user-controlled storage for personal data, enhancing privacy and data sovereignty.
 
-Personal Information Processing Apparatus: Systems like Personal Data Stores (PDS) that let individuals manage their data, aligning with rights like data rectification and consent withdrawal.
+### Humanitarian ICT & Essential Digital Tools for Personhood
+There are a series of fundamental requirements needed to support the digital transformation of values defined by Human Rights Instruments and similar.  Whilst it may not be required to define information management systems in a manner that complies with these values, or seeks to comply, partially comply or engage in non-compliance activity; the means to provide improved opportunities to support human rights, requires the apparatus to do so.
 
-Domain Names: Unique digital addresses that establish online presence, crucial for digital identity and agency.
+Personal Information Processing Apparatus: Systems like Personal Data Stores (PDS) have worked to develop online systems that support the means for individuals manage their data, aligning with rights like data rectification and consent withdrawal.
+
+It is considered that perhaps a modern review on how these works have progressed, taking into consideration areas where technical advancements of royalty free technology has become successful, and thereby revisiting foundational designs as a means to address continued short-falls. 
+
+This may lead to works to define some form of secure-socially-aware-cloud-storage-container format and/or solution.  A constituency of considerations therein; includes but is not limited to, the pragmatic reality that a significant number of natural persons will not have the socioeconomic means to personally own and reliably secure and operate the hardware required to support ***Human Centric AI*** Requirements and will therefore need supports.
+
+Some initial considerations were made earlier, whilst defining **[Sense - progress report Spatio-Temporal: Human Centric AI Package Format](https://docs.google.com/document/d/1Fwx3-YYyKgeigaScoMVoTFc3V2p-0jVwOg0IvMr8TZs/edit?tab=t.0)**.   Progressing this work to consider the technical, legal and social factors pertaining to hosts providing containerised constituencies of an individuals [Inforg](https://en.wikipedia.org/wiki/Inforg) is yet to be considered, particularly given the broad-ranging challenges in efforts to resource works to support respectful designs for the betterment of all members of our human family.
+
+***Historical works were defined as 'Information Banks' and later (~2011/2 onwards) 'knowledge banks'.  various works have been intended to support these forms of - still future - infrastructure - as to support human rights, particularly therein also, those of children*** 
+
+#### Digital Agency Foundations for Human Beings
+It is believed that the use of Personally owned Domain Names is critical. Domain Names relate to various underlying technologies and related tooling, providnig Unique digital addresses that establish online presence, crucial for digital identity and agency.
 
 These tools are vital for participating in digital societies, ensuring individuals can exercise their rights.
 
