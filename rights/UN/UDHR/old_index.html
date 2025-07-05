@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Universal Declaration of Human Rights Ontology</title>
+    <script src="https://www.w3.org/Tools/respec/respec-w3c" class="remove"></script>
+    <script class="remove">
+        var respecConfig = {
+            specStatus: "unofficial",
+            editors: [{
+                name: "Grok 3",
+                company: "xAI",
+                url: "https://x.ai"
+            }],
+            shortName: "udhr-ontology",
+            subtitle: "Version 1.0",
+            publishDate: "2025-07-05",
+            github: "https://github.com/example/udhr-ontology",
+            license: "document",
+            localBiblio: {
+                "UDHR": {
+                    title: "Universal Declaration of Human Rights",
+                    href: "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+                    publisher: "United Nations"
+                },
+                "OWL2": {
+                    title: "OWL 2 Web Ontology Language",
+                    href: "https://www.w3.org/TR/owl2-overview/",
+                    publisher: "W3C"
+                },
+                "RDF": {
+                    title: "RDF 1.1 Concepts and Abstract Syntax",
+                    href: "https://www.w3.org/TR/rdf11-concepts/",
+                    publisher: "W3C"
+                }
+            }
+        };
+    </script>
+</head>
+<body>
+    <section id="abstract">
+        <h2>Abstract</h2>
+        <p>
+            This document specifies an ontology for the Universal Declaration of Human Rights (UDHR),
+            adopted by the United Nations in 1948. The ontology models the UDHR's articles as instances
+            of a <code>Right</code> class, with properties describing their content, applicability, and relationships.
+            It is expressed in OWL 2 and supports semantic web applications such as reasoning and querying.
+        </p>
+    </section>
+    <section id="sotd">
+        <h2>Status of This Document</h2>
+        <p>
+            This is an unofficial ontology specification for the UDHR, created for demonstration purposes.
+            It is not endorsed by the United Nations.
+        </p>
+    </section>
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>
+            The Universal Declaration of Human Rights (UDHR) is a foundational document outlining
+            fundamental human rights. This ontology provides a structured, machine-readable representation
+            of the UDHR, enabling applications in legal informatics, knowledge graphs, and semantic reasoning.
+        </p>
+        <section id="namespace">
+            <h3>Namespace</h3>
+            <p>
+                The namespace for this ontology is <code>http://example.org/ontology/udhr#</code>.
+                Prefixes used include:
+            </p>
+            <ul>
+                <li><code>udhr:</code> <code>http://example.org/ontology/udhr#</code></li>
+                <li><code>rdf:</code> <code>http://www.w3.org/1999/02/22-rdf-syntax-ns#</code></li>
+                <li><code>rdfs:</code> <code>http://www.w3.org/2000/01/rdf-schema#</code></li>
+                <li><code>owl:</code> <code>http://www.w3.org/2002/07/owl#</code></li>
+            </ul>
+        </section>
+    </section>
+    <section id="ontology-structure">
+        <h2>Ontology Structure</h2>
+        <section id="classes">
+            <h3>Classes</h3>
+            <p>The ontology defines the following classes:</p>
+            <table class="simple">
+                <thead>
+                    <tr>
+                        <th>Class</th>
+                        <th>Description</th>
+                        <th>URI</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>Right</code></td>
+                        <td>Represents a human right as defined in the UDHR.</td>
+                        <td><code>udhr:Right</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>Person</code></td>
+                        <td>Represents an individual entitled to rights.</td>
+                        <td><code>udhr:Person</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>Group</code></td>
+                        <td>Represents a collective entitled to certain rights.</td>
+                        <td><code>udhr:Group</code></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="properties">
+            <h3>Properties</h3>
+            <p>The ontology includes the following properties:</p>
+            <table class="simple">
+                <thead>
+                    <tr>
+                        <th>Property</th>
+                        <th>Type</th>
+                        <th>Domain</th>
+                        <th>Range</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>udhr:hasArticleNumber</code></td>
+                        <td>Data Property</td>
+                        <td><code>udhr:Right</code></td>
+                        <td><code>xsd:integer</code></td>
+                        <td>Specifies the article number of a right.</td>
+                    </tr>
+                    <tr>
+                        <td><code>udhr:hasContent</code></td>
+                        <td>Data Property</td>
+                        <td><code>udhr:Right</code></td>
+                        <td><code>xsd:string</code></td>
+                        <td>Contains the textual content of a right.</td>
+                    </tr>
+                    <tr>
+                        <td><code>udhr:appliesTo</code></td>
+                        <td>Object Property</td>
+                        <td><code>udhr:Right</code></td>
+                        <td><code>udhr:Person</code> or <code>udhr:Group</code></td>
+                        <td>Links a right to its entitled entities.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="instances">
+            <h3>Instances</h3>
+            <p>Selected articles from the UDHR are modeled as instances of <code>udhr:Right</code>:</p>
+            <table class="simple">
+                <thead>
+                    <tr>
+                        <th>Instance</th>
+                        <th>Article Number</th>
+                        <th>Content (Abbreviated)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>udhr:Article1</code></td>
+                        <td>1</td>
+                        <td>All human beings are born free and equal in dignity and rights...</td>
+                    </tr>
+                    <tr>
+                        <td><code>udhr:Article2</code></td>
+                        <td>2</td>
+                        <td>Everyone is entitled to all the rights and freedoms set forth...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </section>
+    <section id="serialization">
+        <h2>Ontology Serialization</h2>
+        <p>An example of the UDHR ontology in Turtle format:</p>
+        <pre>
+@prefix udhr: <http://example.org/ontology/udhr#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+udhr:Right a owl:Class ;
+    rdfs:label "Human Right" ;
+    rdfs:comment "A right as defined in the UDHR." .
+
+udhr:Person a owl:Class ;
+    rdfs:label "Person" ;
+    rdfs:comment "An individual entitled to human rights." .
+
+udhr:hasArticleNumber a owl:DatatypeProperty ;
+    rdfs:domain udhr:Right ;
+    rdfs:range xsd:integer ;
+    rdfs:label "has article number" .
+
+udhr:hasContent a owl:DatatypeProperty ;
+    rdfs:domain udhr:Right ;
+    rdfs:range xsd:string ;
+    rdfs:label "has content" .
+
+udhr:appliesTo a owl:ObjectProperty ;
+    rdfs:domain udhr:Right ;
+    rdfs:range [ a owl:Class ; owl:unionOf (udhr:Person udhr:Group) ] ;
+    rdfs:label "applies to" .
+
+udhr:Article1 a udhr:Right ;
+    udhr:hasArticleNumber 1 ;
+    udhr:hasContent "All human beings are born free and equal in dignity and rights..." ;
+    udhr:appliesTo udhr:Person .
+        </pre>
+    </section>
+    <section id="constraints">
+        <h2>Constraints and Axioms</h2>
+        <p>The ontology enforces the following constraints:</p>
+        <ul>
+            <li>Each <code>udhr:Right</code> must have exactly one <code>udhr:hasArticleNumber</code>.</li>
+            <li><code>udhr:Person</code> and <code>udhr:Group</code> are disjoint classes.</li>
+        </ul>
+    </section>
+    <section id="usage">
+        <h2>Usage Examples</h2>
+        <p>SPARQL query to retrieve all rights applicable to persons:</p>
+        <pre>
+PREFIX udhr: <http://example.org/ontology/udhr#>
+SELECT ?right ?content
+WHERE {
+    ?right a udhr:Right ;
+           udhr:hasContent ?content ;
+           udhr:appliesTo udhr:Person .
+}
+        </pre>
+    </section>
+    <section id="references">
+        <h2>References</h2>
+        <p>Normative references:</p>
+        <ul>
+            <li><a data-cite="UDHR">Universal Declaration of Human Rights</a></li>
+            <li><a data-cite="OWL2">OWL 2 Web Ontology Language</a></li>
+            <li><a data-cite="RDF">RDF 1.1 Concepts and Abstract Syntax</a></li>
+        </ul>
+    </section>
+    <section id="appendices">
+        <h2>Appendices</h2>
+        <section id="appendix-ontology-file">
+            <h3>Ontology File</h3>
+            <p>The full ontology is available at <a href="http://example.org/ontology/udhr.ttl">udhr.ttl</a>.</p>
+        </section>
+    </section>
+</body>
+</html>
