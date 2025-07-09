@@ -307,6 +307,9 @@ https://github.com/w3c/respec-vc
 - https://mermaid.js.org/#/
 - https://mermaid.live/ 
 
+**OntoReSpec**  
+https://github.com/floresbakker/OntoReSpec
+
 
 ## AUTHOR NOTE
 Historical works have been undertaken in difficult circumstances.  In what was already difficult cirumstances, The ramifications of 'covid' and my choice not to support the global deployment of 'vaccine passports' has led to serious harm and impairment, including but no exclusive to significant harms via applied policies resulting in an inability to access otherwise necessary healthcare, associated with infection and chronic pain over years, whilst said to be 'on waiting lists' and/or similar.  As such, my ability to do better, has been impaired. Best efforts are being made, in difficult circumstances, whilst having managed to survive and improve to some-degree thereby enabling me to concentrate enough to do these works as illustrated.  Support, Humanitarianly focused expertise and resources are sought to assist with the development of these works towards 'fit for purpose' outcomes; whether or not, i continue to be able to do so to any degree and/or if at all. 
